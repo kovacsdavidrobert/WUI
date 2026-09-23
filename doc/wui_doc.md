@@ -3,7 +3,6 @@ WUI Programdokumentáció
 
 |Készítette:        |[Kovács Dávid Róbert](https://kdr.hu/cv) |
 |:----------------- |----------------------------------------:|
-|Oktatási azonosító:|                              72656388053|
 
 #### [Projektkönyvtár](https://server.kdr.hu/cloud/browse.php?dir=Nyilv%C3%A1nos/oowui/)
 
