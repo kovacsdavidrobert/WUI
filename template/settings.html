@@ -1,0 +1,50 @@
+<div id="maindiv">
+    <div class="field center" style="position: relative;">
+        <h2>
+            §TITLE§
+        </h2>
+        <form method="POST" id="newpwf">
+            <section style="display: §HIDE§;">
+                <label for="oldpw">
+                    Régi jelszó:
+                </label>
+                <br>
+                <input type="password" id="oldpw" name="oldpw" />
+            </section>
+            <label for="newpw">
+                Új jelszó:
+            </label>
+            <br>
+            <input type="password" pattern="§REGEX§" placeholder="Új jelszó"
+                id="newpw" name="newpw" onkeyup="norm(this);" onclick="norm(this);" />
+                <div class="bubble">
+                    §PWDESCRIPTION§
+                </div><br>
+            <label for="newpw2">
+                Ismét:
+            </label>
+            <br>
+            <input type="password" id="newpw2" name="newpw2" onkeyup="norm(this);" placeholder="Ismét" onclick="norm(this);" /><br>
+            <input type="submit" value="Jelszó megváltoztatása" name="ok" onclick="subm();" />
+        </form>
+        §RESPONSE§
+    </div>
+</div>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+    function subm() {
+        let np = ID('newpw');
+        let np2= ID('newpw2');
+        if (!np.checkValidity() || np.value.length < 1) {
+            event.preventDefault();
+        }
+        else if (np.value != np2.value) {
+            event.preventDefault();
+            np2.style.backgroundColor = "tomato";
+        }
+    }
+  
+    function norm(tag) {
+        tag.style.backgroundColor = "";
+    }
+</script>

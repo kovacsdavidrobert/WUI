@@ -1,0 +1,18 @@
+<div id="maindiv" style="height: 100vh;">
+    <div class="field center vcenter">
+      <h2>§TITLE§</h2>
+      <form action="" method="post">
+        <label for="username">Felhasználónév:</label><br>
+        <input type="text" name="username" id="username" §DISABLED§/><br>
+        <label for="password">Jelszó:</label><br>
+        <input type="password" name="password" id="password" §DISABLED§/><br>
+        <input type="submit" value="Bejelentkezés" name="ok" onmousedown="SetRequired()" />
+      </form>
+      §RESPONSE§
+    </div>
+  </div>
+<script>
+  function SetRequired(){
+    username.setAttribute('required','required');
+  }
+</script>

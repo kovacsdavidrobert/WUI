@@ -1,0 +1,124 @@
+<div id="maindiv" style="scroll-behavior: smooth;">
+    <button class="lapozogomb" id="n1" onclick="ID('mukodes').scrollIntoView({block: 'start'});">Ismerje meg a
+        rendszer felépítését!</button>
+    <h1 class="center">Üdvözli a WUI webes felhasználói felület!</h1>
+    <p class="center field">A WUI SCADA szoftverrendszerrel ipari, PLC-k által irányított technológiákat felügyelhet
+        és be is avatkozhat azokba.
+    </p>
+    <p style="height: 80vh">&nbsp;</p>
+    <h2 class="center" id="mukodes">A rendszer felépítése</h2>
+    <div class="field be">
+        <p class="minm"><q>Azon rendszereket melyek lehetővé teszik az ipari folyamatok vizualizációját, a vizuális
+                felület általi beavatkozást, valamint az adatgyűjtést, SCADA rendszereknek nevezzük. A rövidítés
+                az angol »Supervisory Control And Data Acquisition« kifejezésből ered, melynek jelentése
+                »felügyeleti vezérlés és adatgyűjtést«. A SCADA tehát egy felügyeleti rendszer, amely vizuális
+                elemek segítségével szemlélteti az ipari folyamatok állapotait. A szemléltetésen kívül a SCADA
+                rendszer segítségével a folyamatba való beavatkozás is lehetséges. Az ember-gép kapcsolatot
+                megvalósító eszközök gyakran jelenítik meg a rendszer egy részét.</q><br>
+            <i><a href="https://eta.bibl.u-szeged.hu/900/1/2011_0104_szte_5_plc_es_scada.pdf" target="_blank">
+                    (Pletl Szilveszter, Kincses Zoltán: PLC és SCADA rendszerek)</a></i>
+        </p>
+        <p>A rendszer tervezésénél az alábbi követelményeket vettem figyelembe:</p>
+        <ul>
+            <li>a megjelenítés webes technológiákon alapuljon</li>
+            <li>a PLC kommunikáció kétirányú, gyors és kis sávszéligényű legyen</li>
+            <li>Siemens PLC család (S7-300, -400, -1200, -1500) támogatása</li>
+            <li>egyszerű, az iparban megszokott fejlesztőfelületet biztosítson (szintén webes)</li>
+            <li>futtatható legyen a szerver oldali program általános AMP (Apache, MySQL, PHP) web tárhelyeken</li>
+            <li>az adatgyűjtő eszköz feladatát akár egy kártyaszámítógép (pl.: Raspberry-, Orange-, Banana PI)
+                is elláthassa</li>
+            <li>az adatgyűjtő eszköz az értékek írását (felhasználói böngésző -&gt; szerver -&gt; PLC)
+                MQTT szerver vagy WebSocket technológiák nélkül is, egyszerű HTTPS kommunikációval
+                meg tudja oldani</li>
+            <li>az adatgyűjtő mobil interneten, vagy más, NAT-ot alkalmazó hálózaton keresztül is csatlakozhasson
+                az internethez</li>
+            <li>az egész rendszer - az adatgyűjtés is beleértve - képes legyen egy NAS szerveren futni</li>
+            <li>felhasználók, felhasználói csoportok kezelése</li>
+            <li><mark>PLC változókhoz rendelt hibakezelési funkciók, a hibaüzenetek naplózása, akkor is ha a
+                    szerverhez
+                    épp nem kapcsolódik web-böngésző kliens.</mark></li>
+            <li>PLC változók értékeinek naplózása <mark>a beállítások szerint</mark></li>
+            <li>egy rendszer akár több különböző partnert is ki tudjon szolgálni interneten keresztül.</li>
+        </ul>
+        <mark>A jelölt részek még megvalósításra várnak.</mark>
+    </div>
+    <h3 class="center">Felépítési lehetőségek</h3>
+    <div class="field be">
+        <h4>Felhő topológia</h4>
+        <p class="minm">
+            Egyik lehetőség, hogy a szerver programrész egy internetes tárhely webszerverén, vagy egy VPS
+            szerveren fut:
+        </p><br>
+        <img src="img/topo1.jpg" alt="Internetes felépítés" style="max-width: 100%;" />
+        <p>Ebben az esetben szükség van külön adatgyűjtő eszköz(ök)re, melyek kapcsolatot teremtenek
+            a helyi hálózaton lévő PLC-(k)vel, és a távoli szerverrel interneten keresztül.</p>
+        <p>Az adatgyűjtőnek alapesetben csak a szerver címére és egy hozzáférési token-re van szüksége
+            a kapcsolat felépítéséhez. Ezt konfigurációs fájlba kell beírni:<br><br>
+            <code class="pl1 minm">/*server.json:*/<br>
+    {<br>
+    &nbsp;"url": "https://wuiszerver.hu/scada/",<br>
+    &nbsp;"token": "245e72b0-c292-11ee-84a8-525697252cts"<br>
+    }</code><br>
+            A PLC(k)ben lévő változók
+            címeit, típusait, valamint frissítésük periódusidejét később a szerver "le tudja küldeni"
+            az eszköznek.
+        </p>
+        <p>Az adatgyűjtő két kliens kapcsolatot tart fenn a szerverrel. Az egyik a valós idejű PLC
+            adatokat továbbítja a szervernek, a másik a szerver &gt; kliens irányú kommunikációt
+            bonyolítja le.
+        </p>
+        <h5>PLC változók feltöltése:</h5>
+        <p>Az adatgyűjtő HTTPS protokollal és POST metódussal application/json tartalmat küld fel
+            a szervernek, a beállított frekvenciával. A helyi hálózaton több PLC is elhelyezkedhet, melyek
+            külön változótáblával és frissítési frekvenciával rendelkeznek. Ezeket az adatokat (PLC-k helyi
+            címei, változók nevei és memóriacímei, frissítési frekvencia...) egy konfigurációs fájl tartalmazza.
+            Ez a fájl automatikusan jön létre, amikor letöltjük a konfigurációt a kliensbe.
+        </p>
+        <h5>Parancsok fogadása a szervertől:</h5>
+        <p>
+            A szerver oldali üzenetek (beállítófájlok, változók írása a PLC-ben) a következő
+            módon jutnak el az adatgyűjtőhöz:
+        </p>
+        <ul>
+            <li>az adatgyűjtő elindít egy HTTP GET kérelmet a szerver felé
+                <ul>
+                    <li>ha van a szervernek közlendője, azonnal válaszol JSON formátumban</li>
+                    <li>ha nincs akkor várakozik a válasszal maximum 20 másodpercig</li>
+                    <li>
+                        ha a 20 másodperc leteltével sincs leküldendő adat, üres tartalmat küld vissza,
+                        bontja a kapcsolatot
+                    </li>
+                    <li>ha van, azonnal válaszol JSON formátumban</li>
+                </ul>
+            </li>
+            <li>ha az adatgyűjtő kapott feladatot a válaszban, akkor végrehajtja, ha nem, azonnal
+                újra felkeresi a szerver adott elérési útját (...)</li>
+        </ul>
+        <p>Ezzel a módszerrel nagyon gyors (20-500ms a kapcsolat minőségétől függően) szerver -&gt;
+            kliens reakciót lehet elérni.</p>
+        <h4>Üzemeltetés lokális hálózaton</h4>
+        <p>Ha nincs szükség rá, vagy nem szeretnénk internetes elérési lehetőséget, választhatjuk
+            a másik megoldást:</p>
+        <img src="img/topo2.jpg" alt="Internetes felépítés" style="max-width: 100%;" />
+        <p>Ebben a felépítésben is megtalálhatóak a fenti programfunkciók, csak mindegyik egy közös, helyi
+            szerveren fut. Ez lehet egy szerverszámítógép, NAS szerver, extrém esetben egy erősebb
+            kártyaszámítógép.</p>
+        <p>A szervergépnek rendelkeznie kell NodeJS-el, és webes funkciókkal (Apache, PHP, MySQL).</p>
+    </div>
+    <br>
+</div>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+    ID('maindiv').onscroll = () => {
+        if (event.target.scrollTop > 10) {
+            ID('n1').style.opacity = '0';
+            if (ID('n1').style.display == 'block') {
+                setTimeout(() => { ID('n1').style.display = 'none'; }, 300);
+            }
+        }
+        else {
+            ID('n1').style.opacity = '1';
+            ID('n1').style.display = 'block';
+        }
+    }
+</script>

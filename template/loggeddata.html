@@ -1,0 +1,59 @@
+<div id="maindiv">
+    §RESPONSE§
+    <div class="field">
+        <p class="title">
+            Naplózott adatok
+        </p>
+        <p class="">Változó: <b>§VARPATH§</b></p>
+        <table class="stricttable collapse">
+            <tr>
+                <th style="width: 14rem;">Időpont</th>
+                <th>Név</th>
+                <th>Érték</th>
+            </tr>
+            §VARIABLETABLE§
+        </table>
+        <p>Oldal: §MAXPAGE§/§PAGE§</p>
+        <div style="display: §SHOWARR§;">
+            <button id="backb" onclick="page(-1);">⮜</button>
+            <button id="upb" onclick="page(+1);">⮞</button>
+        </div>
+        <div class="right"><button onclick="ExportLog('§VARPATH§')">Exportálás</button></div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script>
+        var act = "§PAGE§";
+        act = Number(act);
+        var max = "§MAXPAGE§";
+        max = Number(max);
+
+        if(act <= 1) backb.setAttribute('disabled', 'disabled');
+        if(act == max) upb.setAttribute('disabled', 'disabled');
+
+        function page(p){
+            window.location.href='?p=loggeddata&vp=§VARPATH§&pn=' + (act + p);
+        }
+
+        function ExportLog(path){
+            fetch(`?p=loggeddata&vp=${path}&pn=export`)
+            .then(response => response.json())
+            .then(response => {
+                if(response.data){
+                    var csv = ObjArrayToCSV(response.data);
+                    var blob = new Blob([csv], {
+                        type: "text/csv",
+                    });
+                    var url = URL.createObjectURL(blob);
+                    var a = document.createElement('a');
+                    a.href = url;
+                    a.download = path.split('/').join('-') + '_logged_data.csv';
+                    a.click();
+                    a.remove();
+                }
+            });
+        }
+    </script>
+    <br>
+    <br>
+    <br>
+</div>

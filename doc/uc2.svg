@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="70cm" height="38cm" viewBox="170 -27 1391 748" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Háttér">
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #030974" x="300" y="0" width="1120" height="720"/>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #030974" x="300" y="-25.1667" width="507.7" height="25.1667"/>
+      <text font-size="16.9333" style="fill: #030974; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="302" y="-5.99355">A mérnök csoporthoz nem tartozó felhasználók lehetőségei</text>
+    </g>
+    <g>
+      <ellipse style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="220" cy="241.417" rx="6" ry="6"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="196" y1="253.417" x2="244" y2="253.417"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="220" y1="247.417" x2="220" y2="277.417"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="220" y1="277.417" x2="196" y2="303.417"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="220" y1="277.417" x2="244" y2="303.417"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="220" y="331.135">
+        <tspan x="220" y="331.135">Felhasználó</tspan>
+      </text>
+    </g>
+    <g>
+      <ellipse style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="220" cy="521.417" rx="6" ry="6"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="196" y1="533.417" x2="244" y2="533.417"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="220" y1="527.417" x2="220" y2="557.417"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="220" y1="557.417" x2="196" y2="583.417"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="220" y1="557.417" x2="244" y2="583.417"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="220" y="611.135">
+        <tspan x="220" y="611.135">Mérnök</tspan>
+      </text>
+    </g>
+    <g>
+      <ellipse style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="1520" cy="381.417" rx="6" ry="6"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="1496" y1="393.417" x2="1544" y2="393.417"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="1520" y1="387.417" x2="1520" y2="417.417"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="1520" y1="417.417" x2="1496" y2="443.417"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="1520" y1="417.417" x2="1544" y2="443.417"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1520" y="471.135">
+        <tspan x="1520" y="471.135">Adatbázis</tspan>
+      </text>
+    </g>
+    <g>
+      <ellipse style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="405.025" cy="88.3417" rx="85.025" ry="28.3417"/>
+      <text font-size="16.9331" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="405.025" y="93.476">
+        <tspan x="405.025" y="93.476">WUI Screens</tspan>
+      </text>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="269.475" y1="228.752" x2="376.696" y2="117.686"/>
+    <g>
+      <ellipse style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="770.225" cy="96.7417" rx="230.225" ry="76.7417"/>
+      <text font-size="16.9331" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="770.225" y="80.7093">
+        <tspan x="770.225" y="80.7093">Csoport számára engedélyezett</tspan>
+        <tspan x="770.225" y="101.876">grafikus oldalak listájának</tspan>
+        <tspan x="770.225" y="123.043">megtekintése</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" x1="491.02" y1="90.3196" x2="534.539" y2="91.3206"/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="526.663,96.1408 536.775,91.3721 526.893,86.1434 "/>
+    </g>
+    <g>
+      <ellipse style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="1089.6" cy="249.867" rx="149.6" ry="49.8667"/>
+      <text font-size="16.9331" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1089.6" y="244.418">
+        <tspan x="1089.6" y="244.418">Felhasználói csoport</tspan>
+        <tspan x="1089.6" y="265.584">meghatárotása</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" x1="1039.11" y1="92.0453" x2="1005.82" y2="92.6268"/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="1013.49,87.492 1003.58,92.6658 1013.67,97.4904 "/>
+    </g>
+    <g>
+      <ellipse style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="1222.52" cy="88.8417" rx="182.525" ry="60.8417"/>
+      <text font-size="16.9331" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1222.52" y="83.3926">
+        <tspan x="1222.52" y="83.3926">Csoport által megtekinthető</tspan>
+        <tspan x="1222.52" y="104.559">oldalak meghatározása</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" x1="1131.56" y1="199.035" x2="1168.62" y2="154.139"/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="1167.54,163.31 1170.05,152.415 1159.82,156.944 "/>
+    </g>
+    <g>
+      <ellipse style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="560.725" cy="233.575" rx="160.725" ry="53.575"/>
+      <text font-size="16.9331" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="560.725" y="228.126">
+        <tspan x="560.725" y="228.126">Engedélyezett grafikus</tspan>
+        <tspan x="560.725" y="249.293">képernyő futtatása</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" x1="651.192" y1="174.487" x2="647.993" y2="176.577"/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="651.759,168.145 646.121,177.799 657.228,176.517 "/>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="1520" y1="420" x2="1520" y2="420"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="1478.67" y1="373.987" x2="1278.05" y2="150.651"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="1478.67" y1="403.663" x2="1218.27" y2="300.728"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="1478.72" y1="411.978" x2="722.453" y2="265.005"/>
+    <g>
+      <ellipse style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="1013.3" cy="484.433" rx="193.3" ry="64.4333"/>
+      <text font-size="16.9331" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1013.3" y="468.401">
+        <tspan x="1013.3" y="468.401">Grafikus képernyő által</tspan>
+        <tspan x="1013.3" y="489.568">használt PLC változók</tspan>
+        <tspan x="1013.3" y="510.734">meghatározása</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" x1="895.267" y1="419.009" x2="663.099" y2="290.32"/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="672.313,289.711 661.143,289.236 667.465,298.457 "/>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="1478.67" y1="425.255" x2="1207.6" y2="459.726"/>
+    <g>
+      <ellipse style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="880.8" cy="662.333" rx="120.8" ry="42.3333"/>
+      <text font-size="16.9331" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="880.8" y="656.884">
+        <tspan x="880.8" y="656.884">PLC változók</tspan>
+        <tspan x="880.8" y="678.051">írása/olvasása</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" x1="601.457" y1="288.138" x2="845.852" y2="615.518"/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="837.2,612.287 847.189,617.31 845.214,606.305 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" x1="964.567" y1="549.865" x2="915.723" y2="615.444"/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="916.351,606.231 914.387,617.238 924.371,612.204 "/>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="995.071" y1="619.011" x2="1478.67" y2="435.667"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="220" y1="501.45" x2="220" y2="338.55"/>
+    <g>
+      <ellipse style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="489.475" cy="376.492" rx="169.475" ry="56.4917"/>
+      <text font-size="16.9331" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="489.475" y="371.043">
+        <tspan x="489.475" y="371.043">Naplózott változóértékek</tspan>
+        <tspan x="489.475" y="392.209">megtekintése</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" x1="533.515" y1="288.154" x2="519.998" y2="315.267"/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="518.987,306.088 519,317.268 527.937,310.549 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" x1="819" y1="444.395" x2="664.336" y2="412.524"/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="672.95,409.194 662.146,412.073 670.931,418.988 "/>
+    </g>
+    <g>
+      <ellipse style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="538.925" cy="546.308" rx="78.925" ry="26.3083"/>
+      <text font-size="16.9331" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="538.925" y="551.443">
+        <tspan x="538.925" y="551.443">CSV export</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" x1="506.214" y1="433.975" x2="529.725" y2="514.714"/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="522.753,508.657 530.35,516.861 532.355,505.861 "/>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="659.945" y1="383.689" x2="1478.67" y2="418.255"/>
+  </g>
+</svg>

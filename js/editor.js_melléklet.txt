@@ -1,0 +1,95 @@
+editor.js ver. 41:
+==================
+Kódtisztítás, több tipus megadása a TS-check-nek, apróbb javítások.
+
+
+editor.js ver. 40:
+==================
+
+Régebbi verziót szerkesztettem a 28-as verzió után. A 28-ban leírtakat újra tartalmazza a kód.
+
+
+editor.js ver. 39:
+==================
+Több módosítás a visszavonással kapcsolatban. Dokumentum változásának figyelése több függvényben, importálásnál jelentkező hibák kezelése, törlési
+megerősítés kikapcsolása egy objektum esetén, visszavonáskor nem történik semmi, ha nem lehet mit visszavonni.
+
+
+editor.js ver. 38:
+==================
+Coord() hibajavítás ha objektumkoordinátát ír.
+Egér események javítása duplaklikk esetén
+Visszavonás - mégis funkciók
+  Mutation observer megszüntetése. A mentési felhívást a beviteli mezők vezérlik és a drag, valamint arrowMove.
+  Ezek a változtatások indítják az előző állapot mentését
+
+
+editor.js ver. 37:
+==================
+Hibajavítás a Coords() függvényben, az Alarmtext miatt 
+
+
+
+editor.js ver. 36:
+==================
+Téglalapos kijelölés átalakítása, TS ellenőrzés futtatása: típusok korrekciója, emiatt sok TS értelmezőnek szóló comment. Saját függvények nagybetűsek.
+
+
+
+editor.js ver. 35:
+==================
+Téglalapos kijelölés, koordinátakiírás, kijelölés átszervezése
+
+
+editor.js ver. 32:
+==================
+Hibajavítás alarmtextnél
+
+
+editor.js ver. 31:
+==================
+NAGY VÁLTOZTATÁS: tulajdonságok csoportos kezelése.
+
+editor.js ver. 30:
+==================
+
+Nem https beillesztés a rendszer vágólapról: olvasható hibaüzenetet dob.
+
+
+editor.js ver. 29:
+==================
+Egérrel történő mozgatás, raszterre illesztés javítása. Több részt is érintett az átalakítás.
+
+  
+editor.js ver. 28:
+==================
+Javítás: számértékek jobb illesztése a CSS editor miatt. Csak a style attribumnál!
+  -DropDownAddNumberProp()
+
+Ha van dialog az oldalon, nem érzékelődik a Ctrl.
+
+  
+editor.js ver. 26:
+==================
+-az írhatóságot engedélyező checkbutton meglétének ellenőrzése az engedélyezése-tiltása előtt
+
+
+editor.js ver. 25:
+==================
+
+-konzolon megjelenő hibák megjelenítése Toast()-al
+-Közös függvények áthelyezése a main.js-be
+	-ID()
+	-dConfirm()
+	-dAlert()
+	-Toast()
+	-ExpressionTest()
+-ColorPicker() kibővítése több színnel, nagyobb mérettel, jobb elrendezéssel
+-CSS szerkesztési lehetőség az EditCSS() függvénnyel
+	-CSSPrettify() szintaxiskiemelő
+	-külső függvények a kurzorpozíció meghatározásához
+	TestCssOk() CSS kód ellenőrző
+-baloldali feltöltőnullák kezelése az entry és az új minimalentry esetében
+-az új százalékos oszlopdiagram kezelése
+-Entry-knél és a Bar-nál ha nincs tag kiválasztva, akkor az írási CB-t letiltjuk
+-értékmanipuláló js kód implementálása

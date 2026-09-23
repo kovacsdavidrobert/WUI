@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="img/wui.png">
+    <link rel="stylesheet" href="css/view.css" />
+    <script type="text/javascript" src="js/plotly-basic-3.4.0.min.js"></script>
+    <title>
+        WUI Viewer
+    </title>
+</head>
+<body>
+    <div class="dropDownMenu" id="hamburger">
+        <br />
+        <ul class="menu">
+            <a href="?p=index">
+                <li>
+                    <img src="img/main.svg" class="icon" alt=""> Main
+                </li>
+            </a>
+            <hr>
+            <li>Available Screens:
+                <ol>
+                    §PAGELIST§
+                </ol>
+            </li>
+        </ul>
+        <hr>
+        <p style="color: white; margin: 8px;">Frissítési idő:</p>
+        <input type="range" min="200" max="10000" value="1000" style="width: 100%;" step="200"
+            oninput="modifyScanTime(this)" onchange="modifyScanTime(this)" />
+        <p style="color: white; margin: 3px; text-align: center;" id="scanlabel">1s</p>
+        <p style="color: white; margin: 8px; text-align: left;" id="scanlabel">Eredeti méret:
+            <input id="autoscale" value="1" type="checkbox" onchange="Resize(!this.checked)" />
+        </p>
+        <p style="color: white; margin: 8px; text-align: left;" id="scanlabel">Hangjelzés:
+            <input id="soundenabled" value="1" type="checkbox" onchange="SetSound()" />
+        </p>
+        <p style="color: white; margin: 8px; text-align: left;" class="hover">
+            <img src="img/screen.svg" class="icon" alt="fs"> <span>Teljes képernyőhöz: <kbd>F11</kbd></span>
+        </p>
+        §EDITLINK§
+    </div>
+    §PAGEDATA§
+    <audio id="alarmsound" src="content/alarm.wav"></audio>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/view.js"></script>
+    <script type="text/javascript">
+        function modifyScanTime(r) {
+            let v = r.value;
+            scanTime = v;
+            ID('scanlabel').innerHTML = (Number(v) / 1000) + "s";
+        }
+        Resize(true);
+        function Resize(enable) {
+            if (enable) {
+                window.onresize = () => { Resize(true) }
+                var rate = window.innerWidth / window.innerHeight;
+                var s = 1;
+                var elementWidth  = parseInt(window.getComputedStyle(ID('editor')).width);
+                var elementHeight = parseInt(window.getComputedStyle(ID('editor')).height)
+                if (rate > elementWidth / elementHeight) s = window.innerHeight / elementHeight;
+                else s = window.innerWidth / elementWidth;
+                ID('editor').style.transform = `scale(${s})`;
+                ID('editor').style.transformOrigin = "top left";
+            }
+            else {
+                ID('editor').style.transform = `scale(1)`;
+                window.onresize = null;
+            }
+        }
+        function toggleFS(p) {
+            if (!document.fullscreenElement) {
+                document.body.requestFullscreen();
+                p.children[0].innerHTML = "Előző méret";
+                p.children[1].src = "img/window.svg";
+            }
+            else {
+                document.exitFullscreen();
+                p.children[0].innerHTML = "Teljes képernyő";
+                p.children[1].src = "img/screen.svg";
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,331 @@
+<div id="maindiv">
+    §RESPONSE§
+    <div class="field">
+        <p class="title">
+            Adatgyűjtő kliensek:
+        </p>
+        <table class="collapse stricttable">
+            <tr>
+                <th>
+                    #
+                </th>
+                <th>
+                    Kliens neve
+                </th>
+                <th>
+                    Hozzáférési TOKEN
+                </th>
+                <th>
+                    Online
+                </th>
+                <th>
+                    Műveletek
+                </th>
+            </tr>
+            §CLIENTTABLE§
+        </table>
+        <p class="right minm">
+            <button class="normalinput" onclick="ID('addclientdialog').showModal();">Kliens hozzáadása</button>
+        </p>
+    </div>
+    <div class="field">
+        <p class="title">
+            Csomópontok:
+        </p>
+        <table class="collapse stricttable">
+            <tr>
+                <th>#</th>
+                <th>
+                    Kliens neve
+                </th>
+                <th>
+                    Csomópont neve
+                </th>
+                <th>
+                    Címe
+                </th>
+                <th>
+                    Driver
+                </th>
+                <th>
+                    Frissítés (ms)
+                </th>
+                <th>
+                    Műveletek
+                </th>
+            </tr>
+            §NODETABLE§
+        </table>
+        <p class="right minm">
+            <button class="normalinput" onclick="setToAddNodeDialog();">Csomópont hozzáadása</button>
+        </p>
+    </div>
+    <div class="field info">
+        <h4>Áttekintés</h4>
+        <p>
+            Az <b>adatgyűjtő kliensek</b> alapesetben a terepen helyezkednek el, ahol mind az ipari hálózathoz, mind az
+            internethez csatlakoznak. A kliensekbe lehet felvenni a <b>csomópontokat</b> &horbar; ezek a PLC-k &horbar; és
+            a csomópontokból gyűjtendő <b>változókat</b>. A kliens és a webszerver (mely ezen sorokat is szolgáltatja)
+            JSON adatcserével kommunikálnak egymással, míg a klíensek a csomópontokkal az adott PLC kommunikációs protokollját
+            használják. Az adatgyűjtő kliens programja és a szerver egy számítógépen is futhat. Ebben az esetben nincs szükség
+            internetkapcsolatra. Távelérésre így is van lehetőség VPN-en keresztül.
+        </p>
+        <h4>Kliens csatlakoztatása a szerverhez</h4>
+        <p>
+            Miután létrehoztunk egy új klienst (a felső ablakban) a rendszer automatikusan generál egy hozzáférési tokent
+            (zsetont). A szerver ezt használja a klíens azonosítására, és autorizációra. A kliens konfigurációs fájljába
+            ezt a zsetont és a szerver elérési útját kell beírni.<br>
+            Íme egy péda, ahol a szerver és a kliens egy eszközön működik együtt:
+        </p>
+        <div class="field">
+            /*server.json*/<br>
+            {<br>
+            &nbsp;&nbsp;"url": "http://localhost/wui/",<br>
+            &nbsp;&nbsp;"token": "b780e2dc-d33e-12ef-a27f-08d40c2ccc15"<br>
+            }<br>
+        </div>
+        <p>
+            Ezeket az adatokat bár manuálisan kell megadnunk, de a kliens elindítását követően a további konfigurációkat már
+            ezen az oldalon keresztül tudjuk leküldeni a kliensnek. A kliensek online állapotát is nyomonkövethetjük
+            felső ablakban. A helyi hálózathoz természetesen még csatlakoztatni kell a klienst és biztosítani kell, hogy
+            el tudja érni a szervert.
+        </p>
+        <p>
+            Itt tölthetjük le a kliens programját:<br>
+            <a href="content/wuiClient.zip">NodeJS WUI kliens program</a>
+        </p>
+        <h4>Csomópontok felvétele a kliensekhez</h4>
+        <p>
+            A kliensekhez több csomópont is tartozhat. Ez a gyakorlatban azt jelenti, hogy az adatgyűjtő több PLC adatait is
+            összegyűjti, melyek konfigurációja, változólistája, valamint adatgyűjtési frekvenciája is különbözhet. A
+            változólistát a csomópont felvételét követően tudjuk felvenni. Azokat a változókat, amelyeket csak írni szeretnénk
+            a többivel azonos módon kell majd felvennünk. Az írás sebességét viszont nem befolyásolja az adatgyűjtési
+            frekvencia.
+        </p>
+        <p>
+            Új csomópont hozzáadásánál annak nevét, IP címét, a kommunikációs protokollját és a frissítési idejét kell
+            megadnunk. Ha ezzel megvagyunk, már vehetjük is fel a monitorozni kívánt változókat.
+        </p>
+        <h4>Kliensek, csomópontok és változó szimbólumnevek átnevezése</h4>
+        <p>
+            Ha ezek közül bármelyiket módosítjuk, akkor az épen futó runtime-okat (screen) újra kellindítani (F5), a runtime
+            szerkesztőt az átnevezést megelőzően zárjuk be. Újratöltés után mind a megjelenítés, mind a szerkesztés zavartalanul,
+            az új nevek használatával fog működni. 
+        </p>
+        <p>
+            Ha a csomópont nevét módosítjuk, akkor a fentieken túl az új konfigurációt le kell töltenünk a klíensbe. Amíg ez nem
+            történik meg, addig az átbevezett csomóponttól nem fognak új adatok érkezni!
+        </p>
+    </div>
+</div>
+<dialog id="addclientdialog" style="min-width: 16rem;">
+    <p class="title">Új kliens hozzáadása</p>
+    <form method="post" id="addclient">
+        <input type="hidden" value="addClient" name="todo" />
+        <input type="text" id="addc" name="clientname" pattern="§NAMEREGEX§" placeholder="Új kliens neve"
+            onkeydown="this.style.backgroundColor ='';" />
+        <div class="bubble-small">
+            §NAMEDESCRIPTION§
+        </div><br>
+    </form>
+    <button class="warning" onclick="submitAddClient()">Hozzáadás</button>
+    <button onclick="this.parentNode.close()">Mégsem</button>
+</dialog>
+
+<dialog id="nodedialog">
+    <p class="title" id="nodedialogtitle">Új csomópont (PLC) hozzáadása</p>
+    <form method="post" id="nodeform">
+        <input type="hidden" id="nodetodo" value="addNode" name="todo" />
+        <input type="hidden" id="oldnodename" name="nodename" />
+        <label for="clientselect">Kliens neve:</label><br>
+        <select style="min-width: 50%; padding:5px; margin: 5px 0px; font-size: 1rem;" name="clientname" id="clientselect">
+            <option value="" selected disabled>Válasszon...</option>
+            §CLIENTSELECT§
+        </select>
+        <br>
+        <table class="collapse stricttable center excel">
+            <tr>
+                <th>Csomópont neve</th>
+                <th>Címe</th>
+                <th>Driver</th>
+                <th>Frissítési idő</th>
+            </tr>
+            <tr>
+                <td>
+                    <input style="max-width: 12rem;" type="text" id="nnodename" name="newnodename" pattern="§NAMEREGEX§"
+                        placeholder="Csomópont neve" onkeydown="this.style.backgroundColor ='';" />
+                </td>
+                <td>
+                    <input style="max-width: 12rem;" type="text" id="nip" name="ip" pattern="§NAMEREGEX§"
+                        placeholder="Címe" onkeydown="this.style.backgroundColor ='';" />
+                </td>
+                <td>
+                    <select name="driver" id="ndriver">
+                        <option value="" disabled>Válasszon...</option>
+                        <option value="snap7">Snap7</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="scantime" id="nscantime">
+                        <option value="" disabled>Válasszon...</option>
+                        <option value="200">200ms</option>
+                        <option value="500">500ms</option>
+                        <option value="1000">1s</option>
+                        <option value="2000">2s</option>
+                        <option value="5000">5s</option>
+                        <option value="10000">10s</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <button id="nodebutton" class="warning" onclick="submitAddNode()">Hozzáadás</button>
+    <button onclick="this.parentNode.close()">Mégsem</button>
+</dialog>
+
+<dialog id="renameclientdialog">
+    <p class="title">Kliens átnevezése</p>
+    <form method="post" id="renameclient">
+        <input type="hidden" value="renameClient" name="todo" />
+        <input type="hidden" id="oldclientname" name="clientname" />
+        <input type="text" id="renamec" name="newclientname" pattern="§NAMEREGEX§"
+            onkeydown="this.style.backgroundColor ='';" />
+    </form>
+    <button class="warning" onclick="submitRenameClient()">Átnevezés</button>
+    <button onclick="this.parentNode.close()">Mégsem</button>
+</dialog>
+
+<form method="post" id="delclientform">
+    <input type="hidden" id="delclient" name="clientname" />
+    <input type="hidden" value="delClient" name="todo" />
+</form>
+
+<form method="post" id="delnodeform">
+    <input type="hidden" id="delnode" name="nodename" />
+    <input type="hidden" name="clientname" id="delnodeclient" />
+    <input type="hidden" value="delNode" name="todo" />
+</form>
+
+<form method="post" id="downloadclientform">
+    <input type="hidden" id="downloadclient" name="clientname" />
+    <input type="hidden" value="downloadClient" name="todo" />
+</form>
+
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+
+    setInterval(() => {
+        CheckState();
+    }, 5000);
+
+    window.onload = () => {
+        CheckState();
+    }
+
+    function CheckState(){
+        var cl = QSA('.ostate');
+        for (let i = 0; i < cl.length; i++) {
+            fetch('?p=clients&ostate=get&clientselected=' + cl[i].dataset.client)
+                .then(x => x.json())
+                .then(y => cl[i].innerHTML = (y.state == 'online') ? '<span class="ok">ONLINE</span>' : '<span class="warning">OFFLINE</span>');
+        }
+    }
+
+    function toolSelected(sel, c) {
+        if (sel.value == 'del') {
+            Confirm("Biztos törli a klienset? (" + c + ")", "Törlés", "Mégsem", () => {
+                ID('delclient').value = c;
+                ID('delclientform').submit();
+            });
+        }
+        else if (sel.value == 'rename') {
+            ID('oldclientname').value = c;
+            ID('renamec').value = c;
+            ID('renameclientdialog').showModal();
+        }
+        else if (sel.value == 'download') {
+            ID('downloadclient').value = c;
+            ID('downloadclientform').submit();
+        }
+
+
+        sel.value = "";
+    }
+    function nodeToolSelected(sel, nodename, clientname) {
+        if (sel.value == 'del') {
+            Confirm("Biztos törli a csomópontot (PLC)? (" + clientname + "/" + nodename + ")", "Törlés", "Mégsem", () => {
+                ID('delnode').value = nodename;
+                ID('delnodeclient').value = clientname;
+                ID('delnodeform').submit();
+            });
+        }
+        if (sel.value == 'mod') {//Módosítás dialog-gá alakítás:
+            ID('nodedialogtitle').innerHTML = "Csomópont módosítása";
+            ID('nodetodo').value = "modNode";
+            ID('nnodename').value = nodename;
+            ID('oldnodename').value = nodename;
+            ID('nip').value = sel.dataset.ip;
+            ID('ndriver').value = sel.dataset.driver;
+            ID('nscantime').value = sel.dataset.scantime;
+            ID('nodebutton').innerHTML = "Módosítás";
+            ID('clientselect').setAttribute('disabled', 'disabled');
+            ID('clientselect').value=clientname;
+            ID('nodedialog').showModal();
+        }
+        if (sel.value == 'var') {//Változók megnyitása új ablakban
+            window.open('?p=variables&clientselected=' + clientname + '&nodeselected=' + nodename, '_blank');
+        }
+        sel.value = "";
+    }//Ezzel hozzáadás dialog lesz:
+    function setToAddNodeDialog() {
+        ID('nodedialogtitle').innerHTML = "Új csomópont (PLC) hozzáadása";
+        ID('nodetodo').value = "addNode";
+        ID('nnodename').value = "";
+        ID('nip').value = "";
+        ID('ndriver').value = "";
+        ID('nscantime').value = "";
+        ID('nodebutton').innerHTML = "Hozzáadás";
+        ID('clientselect').removeAttribute('disabled');
+        ID('clientselect').value="";
+        ID('nodedialog').showModal();
+    }
+    function submitAddClient() {
+        if (!ID('addc').checkValidity() || ID('addc').value.length < 1) {
+            ID('addc').placeholder = "Max 32 betű, min 1.";
+            ID('addc').value = "";
+        }
+        else {
+            ID('addclient').submit();
+        }
+    }
+    function submitAddNode() {
+        if (!ID('nnodename').checkValidity() || ID('nnodename').value.length < 1) {
+            ID('nnodename').placeholder = "Max 32, A-z, 1-9,'.,_'";
+            ID('nnodename').value = "";
+        }
+        else if (!ID('nip').checkValidity() || ID('nip').value.length < 1) {
+            ID('nip').placeholder = "Max 32, A-z, 1-9,'.,_'";
+            ID('nip').value = "";
+        }
+        else if(ID('ndriver').value == '' || ID('nscantime').value == ''){
+            Alert("Válasszon Drivert és frissítési időt!", "OK")
+        }
+        else if(ID('clientselect').value == ''){
+            Alert("Válasszon Klienst!", "OK");
+        }
+        else {
+            ID('clientselect').removeAttribute('disabled');
+            ID('nodeform').submit();
+        }
+    }
+    function submitRenameClient() {
+        if (!ID('renamec').checkValidity() || ID('renamec').value.length < 1) {
+            ID('renamec').placeholder = "Max 32 betű, min 1.";
+            ID('renamec').value = "";
+        }
+        else {
+            ID('renameclient').submit();
+        }
+    }
+
+</script>

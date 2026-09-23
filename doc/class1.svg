@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="70cm" height="85cm" viewBox="355 3 1386 1686" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Háttér">
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="356" y="220" width="305.18" height="830.25" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="487.575" cy="236" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 490.543 241.641 C 490.158,241.839 489.752,241.984 489.325,242.078 C 488.898,242.182 488.45,242.234 487.981,242.234 C 486.314,242.234 485.038,241.688 484.153,240.594 C 483.278,239.49 482.84,237.896 482.84,235.813 C 482.84,233.729 483.278,232.135 484.153,231.031 C 485.038,229.927 486.314,229.375 487.981,229.375 C 488.45,229.375 488.898,229.427 489.325,229.531 C 489.762,229.635 490.168,229.786 490.543,229.984 C 490.543,230.891 490.543,231.797 490.543,232.703 C 490.127,232.318 489.721,232.036 489.325,231.859 C 488.929,231.672 488.523,231.578 488.106,231.578 C 487.21,231.578 486.533,231.937 486.075,232.656 C 485.616,233.365 485.387,234.417 485.387,235.813 C 485.387,237.208 485.616,238.266 486.075,238.984 C 486.533,239.693 487.21,240.047 488.106,240.047 C 488.523,240.047 488.929,239.958 489.325,239.781 C 489.721,239.594 490.127,239.307 490.543,238.922 C 490.543,239.828 490.543,240.734 490.543,241.641z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="508.075" y="240.847">
+        <tspan x="508.075" y="240.847">View</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="357" y1="252" x2="660.18" y2="252"/>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="265.648" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="268.995">
+        <tspan x="376" y="268.995">cookiesToSet : array</tspan>
+      </text>
+      <rect style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #c82930" x="364" y="278.945" width="6" height="6" rx="0" ry="0"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="285.292">
+        <tspan x="376" y="285.292">base : Template</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="298.242" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="301.589">
+        <tspan x="376" y="301.589">desiredPage : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="314.539" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="317.886">
+        <tspan x="376" y="317.886">desiredPageKey : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="330.836" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="334.183">
+        <tspan x="376" y="334.183">page : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="347.133" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="350.48">
+        <tspan x="376" y="350.48">pageKey : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="363.43" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="366.776">
+        <tspan x="376" y="366.776">wuipage : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="379.727" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="383.073">
+        <tspan x="376" y="383.073">wuipageKey : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="396.023" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="399.37">
+        <tspan x="376" y="399.37">userIdentCookieName : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="412.32" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="415.667">
+        <tspan x="376" y="415.667">userToken : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="428.617" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="431.964">
+        <tspan x="376" y="431.964">redirectTo : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="444.914" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="448.261">
+        <tspan x="376" y="448.261">redirectToKey : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="461.211" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="464.558">
+        <tspan x="376" y="464.558">varPath : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="477.508" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="480.854">
+        <tspan x="376" y="480.854">varPathKey : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="493.805" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="497.151">
+        <tspan x="376" y="497.151">pageNumber : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="510.102" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="513.448">
+        <tspan x="376" y="513.448">pageNumberKey : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="526.398" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="529.745">
+        <tspan x="376" y="529.745">message : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="542.695" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="546.042">
+        <tspan x="376" y="546.042">messageKey : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="558.992" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="562.339">
+        <tspan x="376" y="562.339">request : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="575.289" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="578.636">
+        <tspan x="376" y="578.636">requestKey : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="591.586" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="594.933">
+        <tspan x="376" y="594.933">clientToken : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="607.883" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="611.23">
+        <tspan x="376" y="611.23">clientTokenKey : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="624.18" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="627.526">
+        <tspan x="376" y="627.526">node : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="640.477" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="643.823">
+        <tspan x="376" y="643.823">nodeKey : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="656.773" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="660.12">
+        <tspan x="376" y="660.12">client : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="673.07" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="676.417">
+        <tspan x="376" y="676.417">clientKey : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="689.367" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="692.714">
+        <tspan x="376" y="692.714">onlineState : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="705.664" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="709.011">
+        <tspan x="376" y="709.011">onlineStateKey : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="721.961" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="725.308">
+        <tspan x="376" y="725.308">sort : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="738.258" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="741.604">
+        <tspan x="376" y="741.604">sortKey : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="754.555" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="757.901">
+        <tspan x="376" y="757.901">postData : array</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="770.852" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="774.198">
+        <tspan x="376" y="774.198">pageUploadTmpFilename : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="787.148" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="790.495">
+        <tspan x="376" y="790.495">usersymbolUploadTmpFilename : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="803.445" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="806.792">
+        <tspan x="376" y="806.792">usersymbolUploadFilename : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="819.742" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="823.089">
+        <tspan x="376" y="823.089">jsonInput : mixed</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="357" y1="830.391" x2="660.18" y2="830.391"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="844.039" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="847.386">
+        <tspan x="376" y="847.386">getBase()</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="860.336" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="863.683">
+        <tspan x="376" y="863.683">setBase(base)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="876.633" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="879.98">
+        <tspan x="376" y="879.98">Init(base)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="892.93" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="896.276">
+        <tspan x="376" y="896.276">PrintFinal()</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="909.227" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="912.573">
+        <tspan x="376" y="912.573">SetCookie(key, value, time)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="925.523" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="928.87">
+        <tspan x="376" y="928.87">SetFinalHeader(header)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="941.82" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="945.167">
+        <tspan x="376" y="945.167">SetFinalHeaderWithCookies(header)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="958.117" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="961.464">
+        <tspan x="376" y="961.464">JSONresponse(json)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="974.414" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="977.761">
+        <tspan x="376" y="977.761">JSONresponseFromString(json)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="990.711" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="994.058">
+        <tspan x="376" y="994.058">XMLresponseFromString(xmlString)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="1007.01" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="1010.35">
+        <tspan x="376" y="1010.35">JsRedirect(location, delayms)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="1023.3" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="1026.65">
+        <tspan x="376" y="1026.65">CleanInput(userInput)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="367" cy="1039.6" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="376" y="1042.95">
+        <tspan x="376" y="1042.95">EscStrForJS(strToEscapeForJS)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="873.24" y="28" width="290.708" height="129.484" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="979.758" cy="44" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 982.726 49.6406 C 982.341,49.8385 981.935,49.9844 981.508,50.0781 C 981.081,50.1823 980.633,50.2344 980.164,50.2344 C 978.497,50.2344 977.221,49.6875 976.336,48.5938 C 975.461,47.4896 975.023,45.8958 975.023,43.8125 C 975.023,41.7292 975.461,40.1354 976.336,39.0313 C 977.221,37.9271 978.497,37.375 980.164,37.375 C 980.633,37.375 981.081,37.4271 981.508,37.5313 C 981.945,37.6354 982.351,37.7865 982.726,37.9844 C 982.726,38.8906 982.726,39.7969 982.726,40.7031 C 982.31,40.3177 981.903,40.0365 981.508,39.8594 C 981.112,39.6719 980.705,39.5781 980.289,39.5781 C 979.393,39.5781 978.716,39.9375 978.258,40.6563 C 977.799,41.3646 977.57,42.4167 977.57,43.8125 C 977.57,45.2084 977.799,46.2657 978.258,46.9844 C 978.716,47.6927 979.393,48.0469 980.289,48.0469 C 980.705,48.0469 981.112,47.9584 981.508,47.7813 C 981.903,47.5938 982.31,47.3073 982.726,46.9219 C 982.726,47.8281 982.726,48.7344 982.726,49.6406z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1000.26" y="48.8467">
+        <tspan x="1000.26" y="48.8467">Controller</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="874.24" y1="60" x2="1162.95" y2="60"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="874.24" y1="68" x2="1162.95" y2="68"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="884.24" cy="81.6484" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="893.24" y="84.9951">
+        <tspan x="893.24" y="84.9951">Route()</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="884.24" cy="97.9453" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="893.24" y="101.292">
+        <tspan x="893.24" y="101.292">GetVariableIDfromPath(path)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="884.24" cy="114.242" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="893.24" y="117.589">
+        <tspan x="893.24" y="117.589">PregGetVariableIDfromPath(matches)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="884.24" cy="130.539" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="893.24" y="133.886">
+        <tspan x="893.24" y="133.886">GetVariablePathfromID(variableid)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="884.24" cy="146.836" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="893.24" y="150.183">
+        <tspan x="893.24" y="150.183">PregGetVariablePathfromID(matches)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="540" y="40" width="301.987" height="113.188" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="621.054" cy="56" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 624.022 61.6406 C 623.637,61.8385 623.231,61.9844 622.804,62.0781 C 622.377,62.1823 621.929,62.2344 621.46,62.2344 C 619.793,62.2344 618.517,61.6875 617.632,60.5937 C 616.757,59.4896 616.319,57.8958 616.319,55.8125 C 616.319,53.7292 616.757,52.1354 617.632,51.0312 C 618.517,49.9271 619.793,49.375 621.46,49.375 C 621.929,49.375 622.377,49.4271 622.804,49.5312 C 623.241,49.6354 623.647,49.7865 624.022,49.9844 C 624.022,50.8906 624.022,51.7969 624.022,52.7031 C 623.606,52.3177 623.2,52.0365 622.804,51.8594 C 622.408,51.6719 622.002,51.5781 621.585,51.5781 C 620.689,51.5781 620.012,51.9375 619.554,52.6562 C 619.095,53.3645 618.866,54.4166 618.866,55.8125 C 618.866,57.2083 619.095,58.2656 619.554,58.9844 C 620.012,59.6927 620.689,60.0469 621.585,60.0469 C 622.002,60.0469 622.408,59.9583 622.804,59.7812 C 623.2,59.5937 623.606,59.3073 624.022,58.9219 C 624.022,59.8281 624.022,60.7344 624.022,61.6406z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="641.554" y="60.8467">
+        <tspan x="641.554" y="60.8467">PermissionHandler</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="541" y1="72" x2="840.987" y2="72"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="541" y1="80" x2="840.987" y2="80"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="551" cy="93.6484" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="560" y="96.9951">
+        <tspan x="560" y="96.9951">CheckPagePermission(pagePermission)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="551" cy="109.945" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="560" y="113.292">
+        <tspan x="560" y="113.292">GetUserLevel()</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="551" cy="126.242" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="560" y="129.589">
+        <tspan x="560" y="129.589">SetLogin(user)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="551" cy="142.539" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="560" y="145.886">
+        <tspan x="560" y="145.886">Logout()</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="700" y="220" width="290.537" height="292.453" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="807.618" cy="236" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 810.587 241.641 C 810.201,241.839 809.795,241.984 809.368,242.078 C 808.941,242.182 808.493,242.234 808.024,242.234 C 806.358,242.234 805.082,241.687 804.196,240.594 C 803.321,239.49 802.884,237.896 802.884,235.813 C 802.884,233.729 803.321,232.135 804.196,231.031 C 805.082,229.927 806.358,229.375 808.024,229.375 C 808.493,229.375 808.941,229.427 809.368,229.531 C 809.806,229.635 810.212,229.786 810.587,229.984 C 810.587,230.891 810.587,231.797 810.587,232.703 C 810.17,232.318 809.764,232.036 809.368,231.859 C 808.972,231.672 808.566,231.578 808.149,231.578 C 807.254,231.578 806.577,231.937 806.118,232.656 C 805.66,233.365 805.431,234.417 805.431,235.813 C 805.431,237.208 805.66,238.266 806.118,238.984 C 806.577,239.693 807.254,240.047 808.149,240.047 C 808.566,240.047 808.972,239.958 809.368,239.781 C 809.764,239.594 810.17,239.307 810.587,238.922 C 810.587,239.828 810.587,240.734 810.587,241.641z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="828.118" y="240.847">
+        <tspan x="828.118" y="240.847">Database</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="701" y1="252" x2="989.537" y2="252"/>
+      <rect style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #c82930" x="708" y="262.648" width="6" height="6" rx="0" ry="0"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="268.995">
+        <tspan x="720" y="268.995">sqlUser : string</tspan>
+      </text>
+      <rect style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #c82930" x="708" y="278.945" width="6" height="6" rx="0" ry="0"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="285.292">
+        <tspan x="720" y="285.292">sqlPass : string</tspan>
+      </text>
+      <rect style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #c82930" x="708" y="295.242" width="6" height="6" rx="0" ry="0"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="301.589">
+        <tspan x="720" y="301.589">sqlServer : string</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="314.539" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="317.886">
+        <tspan x="720" y="317.886">sqlDB : string</tspan>
+      </text>
+      <rect style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #c82930" x="708" y="327.836" width="6" height="6" rx="0" ry="0"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="334.183">
+        <tspan x="720" y="334.183">instance : Database</tspan>
+      </text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="347.133" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="350.479">
+        <tspan x="720" y="350.479">count : int</tspan>
+      </text>
+      <rect style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #c82930" x="708" y="360.43" width="6" height="6" rx="0" ry="0"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="366.776">
+        <tspan x="720" y="366.776">lastID : string</tspan>
+      </text>
+      <rect style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #c82930" x="708" y="376.727" width="6" height="6" rx="0" ry="0"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="383.073">
+        <tspan x="720" y="383.073">conn : mysqli</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="701" y1="390.375" x2="989.537" y2="390.375"/>
+      <rect style="fill: #f24d5c; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #c82930" x="708" y="401.023" width="6" height="6" rx="0" ry="0"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="407.37">
+        <tspan x="720" y="407.37">__construct()</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="420.32" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="423.667">
+        <tspan x="720" y="423.667">__destruct()</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="436.617" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="439.964">
+        <tspan x="720" y="439.964">getInstance()</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="452.914" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="456.261">
+        <tspan x="720" y="456.261">query(sqlQuery)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="469.211" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="472.558">
+        <tspan x="720" y="472.558">GetLastID()</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="485.508" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="488.854">
+        <tspan x="720" y="488.854">EscStrForSQL(strToEscapeForSQL)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="501.805" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="505.151">
+        <tspan x="720" y="505.151">EscStrForSqlLIKE(strToEscapeForSQL)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="700" y="540" width="668.024" height="1058.41" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1008.75" cy="556" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1011.71 561.641 C 1011.33,561.839 1010.92,561.984 1010.5,562.078 C 1010.07,562.182 1009.62,562.234 1009.15,562.234 C 1007.48,562.234 1006.21,561.688 1005.32,560.594 C 1004.45,559.49 1004.01,557.896 1004.01,555.812 C 1004.01,553.729 1004.45,552.135 1005.32,551.031 C 1006.21,549.927 1007.48,549.375 1009.15,549.375 C 1009.62,549.375 1010.07,549.427 1010.5,549.531 C 1010.93,549.635 1011.34,549.786 1011.71,549.984 C 1011.71,550.891 1011.71,551.797 1011.71,552.703 C 1011.3,552.318 1010.89,552.036 1010.5,551.859 C 1010.1,551.672 1009.69,551.578 1009.28,551.578 C 1008.38,551.578 1007.7,551.938 1007.25,552.656 C 1006.79,553.365 1006.56,554.417 1006.56,555.812 C 1006.56,557.208 1006.79,558.266 1007.25,558.984 C 1007.7,559.693 1008.38,560.047 1009.28,560.047 C 1009.69,560.047 1010.1,559.958 1010.5,559.781 C 1010.89,559.594 1011.3,559.307 1011.71,558.922 C 1011.71,559.828 1011.71,560.734 1011.71,561.641z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1029.25" y="560.847">
+        <tspan x="1029.25" y="560.847">Model</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="701" y1="572" x2="1367.02" y2="572"/>
+      <rect style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #c82930" x="708" y="582.648" width="6" height="6" rx="0" ry="0"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="588.995">
+        <tspan x="720" y="588.995">cache : array</tspan>
+      </text>
+      <rect style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #c82930" x="708" y="598.945" width="6" height="6" rx="0" ry="0"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="605.292">
+        <tspan x="720" y="605.292">sqlInited : bool</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="701" y1="612.594" x2="1367.02" y2="612.594"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="626.242" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="629.589">
+        <tspan x="720" y="629.589">GetPageInfo(name)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="642.539" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="645.886">
+        <tspan x="720" y="645.886">GetBrowsablePages()</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="658.836" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="662.183">
+        <tspan x="720" y="662.183">GetUserTokenData(userToken, force)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="675.133" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="678.479">
+        <tspan x="720" y="678.479">RemoveUserToken(userToken)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="691.43" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="694.776">
+        <tspan x="720" y="694.776">RemoveUser(username)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="707.727" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="711.073">
+        <tspan x="720" y="711.073">RemoveAllTokenOfUser(username)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="724.023" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="727.37">
+        <tspan x="720" y="727.37">AddNewTokenToUser(username)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="740.32" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="743.667">
+        <tspan x="720" y="743.667">GetUserData(username, force)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="756.617" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="759.964">
+        <tspan x="720" y="759.964">GetGroupOfUser(username, force)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="772.914" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="776.261">
+        <tspan x="720" y="776.261">GetPasswordOfUser(username, force)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="789.211" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="792.558">
+        <tspan x="720" y="792.558">SetPasswordOfUser(username, newPassword)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="805.508" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="808.855">
+        <tspan x="720" y="808.855">SetGroupOfUser(username, groupname)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="821.805" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="825.151">
+        <tspan x="720" y="825.151">GetAllGroups(force)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="838.102" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="841.448">
+        <tspan x="720" y="841.448">GetAllUsers(force)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="854.398" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="857.745">
+        <tspan x="720" y="857.745">GetWUIPagesMeta(force)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="870.695" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="874.042">
+        <tspan x="720" y="874.042">GetWUIPageIDbyName(name)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="886.992" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="890.339">
+        <tspan x="720" y="890.339">GetWUIPageData(name)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="903.289" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="906.636">
+        <tspan x="720" y="906.636">SetWUIPageData(name, data)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="919.586" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="922.933">
+        <tspan x="720" y="922.933">GetWUIPagesMetaOfGroup(groupname, force)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="935.883" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="939.23">
+        <tspan x="720" y="939.23">SetWUIPagesOfGroup(pagelist, groupname)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="952.18" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="955.526">
+        <tspan x="720" y="955.526">RemoveGroup(groupname)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="968.477" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="971.823">
+        <tspan x="720" y="971.823">AddGroup(groupname)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="984.773" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="988.12">
+        <tspan x="720" y="988.12">AddUser(username)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1001.07" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1004.42">
+        <tspan x="720" y="1004.42">GetAllClient()</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1017.37" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1020.71">
+        <tspan x="720" y="1020.71">GetClientByName(clientname)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1033.66" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1037.01">
+        <tspan x="720" y="1037.01">GetNodesOfClient(clientname)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1049.96" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1053.31">
+        <tspan x="720" y="1053.31">GetAllNode(force)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1066.26" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1069.6">
+        <tspan x="720" y="1069.6">GetVariablesOfNode(clientname, nodename, order, force)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1082.55" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1085.9">
+        <tspan x="720" y="1085.9">GetVariablesByID(variableid)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1098.85" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1102.2">
+        <tspan x="720" y="1102.2">IsVariableReadonly(variableid)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1115.15" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1118.5">
+        <tspan x="720" y="1118.5">AddVariableToNode(clientname, nodename, vardata)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1131.45" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1134.79">
+        <tspan x="720" y="1134.79">RemoveVariableInNode(clientname, nodename, symbol)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1147.74" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1151.09">
+        <tspan x="720" y="1151.09">ModifyVariableInNode(clientname, nodename, vardata)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1164.04" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1167.39">
+        <tspan x="720" y="1167.39">ModifyNode(clientname, nodename, nodedata)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1180.34" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1183.68">
+        <tspan x="720" y="1183.68">AddNode(clientname, nodedata)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1196.63" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1199.98">
+        <tspan x="720" y="1199.98">RemoveNode(clientname, nodename)</tspan>
+      </text>
+      <rect style="fill: #f24d5c; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #c82930" x="708" y="1209.93" width="6" height="6" rx="0" ry="0"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1216.28">
+        <tspan x="720" y="1216.28">GetNodeID(clientname, nodename, force)</tspan>
+      </text>
+      <rect style="fill: #f24d5c; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #c82930" x="708" y="1226.23" width="6" height="6" rx="0" ry="0"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1232.57">
+        <tspan x="720" y="1232.57">GetNodenameByID(nodeid, force)</tspan>
+      </text>
+      <rect style="fill: #f24d5c; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #c82930" x="708" y="1242.52" width="6" height="6" rx="0" ry="0"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1248.87">
+        <tspan x="720" y="1248.87">GetNodeData(clientname, nodename, force)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1261.82" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1265.17">
+        <tspan x="720" y="1265.17">AddNewWUIPage(pagename, comment)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1278.12" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1281.46">
+        <tspan x="720" y="1281.46">MondifyWUIPageMeta(pagename, newpagename, newcomment)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1294.41" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1297.76">
+        <tspan x="720" y="1297.76">RemoveWUIPage(pagename)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1310.71" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1314.06">
+        <tspan x="720" y="1314.06">CopyWUIPage(pagename)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1327.01" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1330.35">
+        <tspan x="720" y="1330.35">AddClient(clientname)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1343.3" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1346.65">
+        <tspan x="720" y="1346.65">RenameClient(clientname, newclientname)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1359.6" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1362.95">
+        <tspan x="720" y="1362.95">RemoveClient(clientname)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1375.9" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1379.25">
+        <tspan x="720" y="1379.25">WriteVariablesToClient(clientname)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1392.2" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1395.54">
+        <tspan x="720" y="1395.54">GetRealtimeDataOfClientNode(clientname, nodename, authGroupname)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1408.49" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1411.84">
+        <tspan x="720" y="1411.84">SetRealtimeDataByClient(clientname, nodename, data)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1424.79" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1428.14">
+        <tspan x="720" y="1428.14">RemoveOldLoggedData(hours)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1441.09" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1444.43">
+        <tspan x="720" y="1444.43">GetLoggedDataOfClientNode(clientname, nodename, symbol, page, limit, authGroupname)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1457.38" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1460.73">
+        <tspan x="720" y="1460.73">UpdateClientTime(clientname)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1473.68" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1477.03">
+        <tspan x="720" y="1477.03">WriteTagInNode(clientname, nodename, symbol, value)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1489.98" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1493.32">
+        <tspan x="720" y="1493.32">GetClientByToken(clientToken)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1506.27" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1509.62">
+        <tspan x="720" y="1509.62">GetClientCommand(clientname)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1522.57" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1525.92">
+        <tspan x="720" y="1525.92">RemoveClientCommand(id)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1538.87" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1542.21">
+        <tspan x="720" y="1542.21">SetVariablesOfPage(pageid, variableidlist)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1555.16" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1558.51">
+        <tspan x="720" y="1558.51">IsVariableOfGroup(groupname, variableid)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="711" cy="1571.46" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1574.81">
+        <tspan x="720" y="1574.81">GetVariableID(clientname, nodename, symbol)</tspan>
+      </text>
+      <rect style="fill: #f24d5c; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #c82930" x="708" y="1584.76" width="6" height="6" rx="0" ry="0"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1591.1">
+        <tspan x="720" y="1591.1">InitSQL()</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="380" y="1300" width="261.478" height="276.156" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="473.358" cy="1316" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 476.327 1321.64 C 475.942,1321.84 475.535,1321.98 475.108,1322.08 C 474.681,1322.18 474.233,1322.23 473.765,1322.23 C 472.098,1322.23 470.822,1321.69 469.937,1320.59 C 469.062,1319.49 468.624,1317.9 468.624,1315.81 C 468.624,1313.73 469.062,1312.14 469.937,1311.03 C 470.822,1309.93 472.098,1309.37 473.765,1309.37 C 474.233,1309.37 474.681,1309.43 475.108,1309.53 C 475.546,1309.64 475.952,1309.79 476.327,1309.98 C 476.327,1310.89 476.327,1311.8 476.327,1312.7 C 475.91,1312.32 475.504,1312.04 475.108,1311.86 C 474.713,1311.67 474.306,1311.58 473.89,1311.58 C 472.994,1311.58 472.317,1311.94 471.858,1312.66 C 471.4,1313.36 471.171,1314.42 471.171,1315.81 C 471.171,1317.21 471.4,1318.27 471.858,1318.98 C 472.317,1319.69 472.994,1320.05 473.89,1320.05 C 474.306,1320.05 474.713,1319.96 475.108,1319.78 C 475.504,1319.59 475.91,1319.31 476.327,1318.92 C 476.327,1319.83 476.327,1320.73 476.327,1321.64z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="493.858" y="1320.85">
+        <tspan x="493.858" y="1320.85">Template</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="381" y1="1332" x2="640.478" y2="1332"/>
+      <rect style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #c82930" x="388" y="1342.65" width="6" height="6" rx="0" ry="0"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="400" y="1349">
+        <tspan x="400" y="1349">origHtml : string</tspan>
+      </text>
+      <rect style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #c82930" x="388" y="1358.95" width="6" height="6" rx="0" ry="0"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="400" y="1365.29">
+        <tspan x="400" y="1365.29">flagsData : array</tspan>
+      </text>
+      <rect style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #c82930" x="388" y="1375.24" width="6" height="6" rx="0" ry="0"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="400" y="1381.59">
+        <tspan x="400" y="1381.59">modified : bool</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="381" y1="1388.89" x2="640.478" y2="1388.89"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="391" cy="1402.54" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="400" y="1405.89">
+        <tspan x="400" y="1405.89">getFlags()</tspan>
+      </text>
+      <rect style="fill: #f24d5c; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #c82930" x="388" y="1415.84" width="6" height="6" rx="0" ry="0"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="400" y="1422.18">
+        <tspan x="400" y="1422.18">__construct(html)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="391" cy="1435.13" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="400" y="1438.48">
+        <tspan x="400" y="1438.48">ReloadFromString(html)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="391" cy="1451.43" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="400" y="1454.78">
+        <tspan x="400" y="1454.78">ReloadFromFile(filename)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="391" cy="1467.73" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="400" y="1471.07">
+        <tspan x="400" y="1471.07">New()</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="391" cy="1484.02" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="400" y="1487.37">
+        <tspan x="400" y="1487.37">NewFromFile(filename)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="391" cy="1500.32" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="400" y="1503.67">
+        <tspan x="400" y="1503.67">NewFromString(html)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="391" cy="1516.62" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="400" y="1519.96">
+        <tspan x="400" y="1519.96">AddData(flag, data, isHTML)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="391" cy="1532.91" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="400" y="1536.26">
+        <tspan x="400" y="1536.26">ClearFlag(flag)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="391" cy="1549.21" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="400" y="1552.56">
+        <tspan x="400" y="1552.56">GetFlagDataByKey(flag, dataKey)</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="391" cy="1565.51" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="400" y="1568.85">
+        <tspan x="400" y="1568.85">Render(force)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="360" y="40" width="154.147" height="113.188" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #eb937f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="392.369" cy="56" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 396.478 62 C 393.905,62 391.332,62 388.76,62 C 388.76,57.8698 388.76,53.7396 388.76,49.6094 C 391.332,49.6094 393.905,49.6094 396.478,49.6094 C 396.478,50.3281 396.478,51.0469 396.478,51.7656 C 394.723,51.7656 392.968,51.7656 391.213,51.7656 C 391.213,52.6562 391.213,53.5469 391.213,54.4375 C 392.801,54.4375 394.39,54.4375 395.978,54.4375 C 395.978,55.1563 395.978,55.875 395.978,56.5938 C 394.39,56.5938 392.801,56.5938 391.213,56.5938 C 391.213,57.6771 391.213,58.7605 391.213,59.8438 C 392.968,59.8438 394.723,59.8438 396.478,59.8438 C 396.478,60.5625 396.478,61.2813 396.478,62z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="410.229" y="60.8467">
+        <tspan x="410.229" y="60.8467">Permissions</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="361" y1="72" x2="513.147" y2="72"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="366" y="88.9951">
+        <tspan x="366" y="88.9951">case Guest = 0;</tspan>
+      </text>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="366" y="105.292">
+        <tspan x="366" y="105.292">case BlankPass = 5;</tspan>
+      </text>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="366" y="121.589">
+        <tspan x="366" y="121.589">case User = 10;</tspan>
+      </text>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="366" y="137.886">
+        <tspan x="366" y="137.886">case Engineer = 20;</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="361" y1="145.188" x2="513.147" y2="145.188"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-169,313)">
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="1400" y="140" width="127.596" height="64.2969" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #b4a7e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1425.28" cy="156" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1421.21 151.766 C 1421.21,151.047 1421.21,150.328 1421.21,149.609 C 1423.67,149.609 1426.13,149.609 1428.6,149.609 C 1428.6,150.328 1428.6,151.047 1428.6,151.766 C 1427.77,151.766 1426.95,151.766 1426.13,151.766 C 1426.13,154.458 1426.13,157.151 1426.13,159.844 C 1426.95,159.844 1427.77,159.844 1428.6,159.844 C 1428.6,160.562 1428.6,161.281 1428.6,162 C 1426.13,162 1423.67,162 1421.21,162 C 1421.21,161.281 1421.21,160.562 1421.21,159.844 C 1422.03,159.844 1422.85,159.844 1423.68,159.844 C 1423.68,157.151 1423.68,154.458 1423.68,151.766 C 1422.85,151.766 1422.03,151.766 1421.21,151.766z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:italic;font-weight:normal" x="1441.57" y="160.847">
+        <tspan x="1441.57" y="160.847">IPageBase</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1401" y1="172" x2="1526.6" y2="172"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1401" y1="180" x2="1526.6" y2="180"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1411" cy="193.648" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1420" y="196.995">
+        <tspan x="1420" y="196.995">Run(template)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="1040" y="200" width="374.405" height="226"/>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="1040" y="178.361" width="161.05" height="21.6389"/>
+      <text font-size="14.1111" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1042" y="194.672">Kivételek (exceptions)</text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="1080" y="340" width="291.303" height="64.2969" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1135.68" cy="356" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1138.65 361.641 C 1138.26,361.839 1137.86,361.984 1137.43,362.078 C 1137,362.182 1136.55,362.234 1136.09,362.234 C 1134.42,362.234 1133.14,361.688 1132.26,360.594 C 1131.38,359.49 1130.94,357.896 1130.94,355.813 C 1130.94,353.729 1131.38,352.135 1132.26,351.031 C 1133.14,349.927 1134.42,349.375 1136.09,349.375 C 1136.55,349.375 1137,349.427 1137.43,349.531 C 1137.87,349.635 1138.27,349.786 1138.65,349.984 C 1138.65,350.891 1138.65,351.797 1138.65,352.703 C 1138.23,352.318 1137.82,352.036 1137.43,351.859 C 1137.03,351.672 1136.63,351.578 1136.21,351.578 C 1135.31,351.578 1134.64,351.937 1134.18,352.656 C 1133.72,353.365 1133.49,354.417 1133.49,355.813 C 1133.49,357.208 1133.72,358.266 1134.18,358.984 C 1134.64,359.693 1135.31,360.047 1136.21,360.047 C 1136.63,360.047 1137.03,359.958 1137.43,359.781 C 1137.82,359.594 1138.23,359.307 1138.65,358.922 C 1138.65,359.828 1138.65,360.734 1138.65,361.641z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1156.18" y="360.847">
+        <tspan x="1156.18" y="360.847">PageNotFoundException</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1081" y1="372" x2="1370.3" y2="372"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1081" y1="380" x2="1370.3" y2="380"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1091" cy="393.648" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1100" y="396.995">
+        <tspan x="1100" y="396.995">__construct(message, code, previous)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="1060" y="220" width="335.169" height="96.8906" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1171.5" cy="236" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1174.47 241.641 C 1174.08,241.839 1173.68,241.984 1173.25,242.078 C 1172.82,242.182 1172.38,242.234 1171.91,242.234 C 1170.24,242.234 1168.96,241.688 1168.08,240.594 C 1167.2,239.49 1166.77,237.896 1166.77,235.813 C 1166.77,233.729 1167.2,232.135 1168.08,231.031 C 1168.96,229.927 1170.24,229.375 1171.91,229.375 C 1172.38,229.375 1172.82,229.427 1173.25,229.531 C 1173.69,229.635 1174.09,229.786 1174.47,229.984 C 1174.47,230.891 1174.47,231.797 1174.47,232.703 C 1174.05,232.318 1173.65,232.036 1173.25,231.859 C 1172.86,231.672 1172.45,231.578 1172.03,231.578 C 1171.14,231.578 1170.46,231.937 1170,232.656 C 1169.54,233.365 1169.31,234.417 1169.31,235.813 C 1169.31,237.208 1169.54,238.266 1170,238.984 C 1170.46,239.693 1171.14,240.047 1172.03,240.047 C 1172.45,240.047 1172.86,239.958 1173.25,239.781 C 1173.65,239.594 1174.05,239.307 1174.47,238.922 C 1174.47,239.828 1174.47,240.734 1174.47,241.641z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1192" y="240.847">
+        <tspan x="1192" y="240.847">PageException</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1061" y1="252" x2="1394.17" y2="252"/>
+      <rect style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #c82930" x="1068" y="262.648" width="6" height="6" rx="0" ry="0"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1080" y="268.995">
+        <tspan x="1080" y="268.995">page : string</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1061" y1="276.297" x2="1394.17" y2="276.297"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1071" cy="289.945" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1080" y="293.292">
+        <tspan x="1080" y="293.292">getPage()</tspan>
+      </text>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1071" cy="306.242" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1080" y="309.589">
+        <tspan x="1080" y="309.589">__construct(page, message, code, previous)</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke-dasharray: 10; stroke: #000000" x1="891.878" y1="539.825" x2="886.821" y2="520.989"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #000000" fill-rule="evenodd" points="884.876,513.745 892.298,522.107 886.821,520.989 882.64,524.7 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke-dasharray: 10; stroke: #000000" x1="1179.57" y1="539.754" x2="1214.46" y2="412.861"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #000000" fill-rule="evenodd" points="1216.45,405.63 1218.62,416.597 1214.46,412.861 1208.97,413.946 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke-dasharray: 10; stroke: #000000" d="M 1027.75 157.742 C 1033.56,199 994.099,339.306 1071.22,350.244"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #000000" fill-rule="evenodd" points="1078.64,351.297 1068.04,354.844 1071.22,350.244 1069.45,344.943 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke-dasharray: 10; stroke: #000000" d="M 1164.21 109.953 C 1225.61,117.21 1215.82,131.309 1222.67,211.168"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #000000" fill-rule="evenodd" points="1223.31,218.641 1217.48,209.104 1222.67,211.168 1227.44,208.25 "/>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="1460" y="28" width="280" height="1660"/>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="1460" y="6.36111" width="180.1" height="21.6389"/>
+      <text font-size="14.1111" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1462" y="22.672">Page kontrollerek(pages)</text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="1480" y="120" width="244.782" height="64.2969" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1495" cy="136" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1497.97 141.641 C 1497.58,141.839 1497.18,141.984 1496.75,142.078 C 1496.32,142.182 1495.88,142.234 1495.41,142.234 C 1493.74,142.234 1492.46,141.688 1491.58,140.594 C 1490.7,139.49 1490.27,137.896 1490.27,135.812 C 1490.27,133.729 1490.7,132.135 1491.58,131.031 C 1492.46,129.927 1493.74,129.375 1495.41,129.375 C 1495.88,129.375 1496.32,129.427 1496.75,129.531 C 1497.19,129.635 1497.59,129.786 1497.97,129.984 C 1497.97,130.891 1497.97,131.797 1497.97,132.703 C 1497.55,132.318 1497.15,132.036 1496.75,131.859 C 1496.35,131.672 1495.95,131.578 1495.53,131.578 C 1494.64,131.578 1493.96,131.937 1493.5,132.656 C 1493.04,133.365 1492.81,134.417 1492.81,135.812 C 1492.81,137.208 1493.04,138.266 1493.5,138.984 C 1493.96,139.693 1494.64,140.047 1495.53,140.047 C 1495.95,140.047 1496.35,139.958 1496.75,139.781 C 1497.15,139.594 1497.55,139.307 1497.97,138.922 C 1497.97,139.828 1497.97,140.734 1497.97,141.641z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1509" y="140.847">
+        <tspan x="1509" y="140.847">ClientCommandRestController</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="152" x2="1723.78" y2="152"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="160" x2="1723.78" y2="160"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1491" cy="173.648" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1500" y="176.995">
+        <tspan x="1500" y="176.995">Run(template)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="1480" y="200" width="180.702" height="64.2969" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1495" cy="216" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1497.97 221.641 C 1497.58,221.839 1497.18,221.984 1496.75,222.078 C 1496.32,222.182 1495.88,222.234 1495.41,222.234 C 1493.74,222.234 1492.46,221.688 1491.58,220.594 C 1490.7,219.49 1490.27,217.896 1490.27,215.813 C 1490.27,213.729 1490.7,212.135 1491.58,211.031 C 1492.46,209.927 1493.74,209.375 1495.41,209.375 C 1495.88,209.375 1496.32,209.427 1496.75,209.531 C 1497.19,209.635 1497.59,209.786 1497.97,209.984 C 1497.97,210.891 1497.97,211.797 1497.97,212.703 C 1497.55,212.318 1497.15,212.036 1496.75,211.859 C 1496.35,211.672 1495.95,211.578 1495.53,211.578 C 1494.64,211.578 1493.96,211.938 1493.5,212.656 C 1493.04,213.365 1492.81,214.417 1492.81,215.813 C 1492.81,217.208 1493.04,218.266 1493.5,218.984 C 1493.96,219.693 1494.64,220.047 1495.53,220.047 C 1495.95,220.047 1496.35,219.958 1496.75,219.781 C 1497.15,219.594 1497.55,219.307 1497.97,218.922 C 1497.97,219.828 1497.97,220.734 1497.97,221.641z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1509" y="220.847">
+        <tspan x="1509" y="220.847">ScreenmanController</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="232" x2="1659.7" y2="232"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="240" x2="1659.7" y2="240"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1491" cy="253.648" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1500" y="256.995">
+        <tspan x="1500" y="256.995">Run(template)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="1480" y="280" width="148.997" height="64.2969" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1495" cy="296" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1497.97 301.641 C 1497.58,301.839 1497.18,301.984 1496.75,302.078 C 1496.32,302.182 1495.88,302.234 1495.41,302.234 C 1493.74,302.234 1492.46,301.688 1491.58,300.594 C 1490.7,299.49 1490.27,297.896 1490.27,295.813 C 1490.27,293.729 1490.7,292.135 1491.58,291.031 C 1492.46,289.927 1493.74,289.375 1495.41,289.375 C 1495.88,289.375 1496.32,289.427 1496.75,289.531 C 1497.19,289.635 1497.59,289.786 1497.97,289.984 C 1497.97,290.891 1497.97,291.797 1497.97,292.703 C 1497.55,292.318 1497.15,292.036 1496.75,291.859 C 1496.35,291.672 1495.95,291.578 1495.53,291.578 C 1494.64,291.578 1493.96,291.938 1493.5,292.656 C 1493.04,293.365 1492.81,294.417 1492.81,295.813 C 1492.81,297.208 1493.04,298.266 1493.5,298.984 C 1493.96,299.693 1494.64,300.047 1495.53,300.047 C 1495.95,300.047 1496.35,299.958 1496.75,299.781 C 1497.15,299.594 1497.55,299.307 1497.97,298.922 C 1497.97,299.828 1497.97,300.734 1497.97,301.641z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1509" y="300.847">
+        <tspan x="1509" y="300.847">ClientsController</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="312" x2="1628" y2="312"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="320" x2="1628" y2="320"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1491" cy="333.648" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1500" y="336.995">
+        <tspan x="1500" y="336.995">Run(template)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="1480" y="360" width="152.148" height="64.2969" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1495" cy="376" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1497.97 381.641 C 1497.58,381.839 1497.18,381.984 1496.75,382.078 C 1496.32,382.182 1495.88,382.234 1495.41,382.234 C 1493.74,382.234 1492.46,381.688 1491.58,380.594 C 1490.7,379.49 1490.27,377.896 1490.27,375.813 C 1490.27,373.729 1490.7,372.135 1491.58,371.031 C 1492.46,369.927 1493.74,369.375 1495.41,369.375 C 1495.88,369.375 1496.32,369.427 1496.75,369.531 C 1497.19,369.635 1497.59,369.786 1497.97,369.984 C 1497.97,370.891 1497.97,371.797 1497.97,372.703 C 1497.55,372.318 1497.15,372.036 1496.75,371.859 C 1496.35,371.672 1495.95,371.578 1495.53,371.578 C 1494.64,371.578 1493.96,371.938 1493.5,372.656 C 1493.04,373.365 1492.81,374.417 1492.81,375.813 C 1492.81,377.208 1493.04,378.266 1493.5,378.984 C 1493.96,379.693 1494.64,380.047 1495.53,380.047 C 1495.95,380.047 1496.35,379.958 1496.75,379.781 C 1497.15,379.594 1497.55,379.307 1497.97,378.922 C 1497.97,379.828 1497.97,380.734 1497.97,381.641z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1509" y="380.847">
+        <tspan x="1509" y="380.847">HeaderController</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="392" x2="1631.15" y2="392"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="400" x2="1631.15" y2="400"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1491" cy="413.648" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1500" y="416.995">
+        <tspan x="1500" y="416.995">Run(template)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="1480" y="440" width="139.187" height="64.2969" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1495" cy="456" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1497.97 461.641 C 1497.58,461.839 1497.18,461.984 1496.75,462.078 C 1496.32,462.182 1495.88,462.234 1495.41,462.234 C 1493.74,462.234 1492.46,461.688 1491.58,460.594 C 1490.7,459.49 1490.27,457.896 1490.27,455.813 C 1490.27,453.729 1490.7,452.135 1491.58,451.031 C 1492.46,449.927 1493.74,449.375 1495.41,449.375 C 1495.88,449.375 1496.32,449.427 1496.75,449.531 C 1497.19,449.635 1497.59,449.786 1497.97,449.984 C 1497.97,450.891 1497.97,451.797 1497.97,452.703 C 1497.55,452.318 1497.15,452.036 1496.75,451.859 C 1496.35,451.672 1495.95,451.578 1495.53,451.578 C 1494.64,451.578 1493.96,451.938 1493.5,452.656 C 1493.04,453.365 1492.81,454.417 1492.81,455.813 C 1492.81,457.208 1493.04,458.266 1493.5,458.984 C 1493.96,459.693 1494.64,460.047 1495.53,460.047 C 1495.95,460.047 1496.35,459.958 1496.75,459.781 C 1497.15,459.594 1497.55,459.307 1497.97,458.922 C 1497.97,459.828 1497.97,460.734 1497.97,461.641z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1509" y="460.847">
+        <tspan x="1509" y="460.847">LoginController</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="472" x2="1618.19" y2="472"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="480" x2="1618.19" y2="480"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1491" cy="493.648" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1500" y="496.995">
+        <tspan x="1500" y="496.995">Run(template)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="1480" y="520" width="146.215" height="64.2969" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1495" cy="536" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1497.97 541.641 C 1497.58,541.839 1497.18,541.984 1496.75,542.078 C 1496.32,542.182 1495.88,542.234 1495.41,542.234 C 1493.74,542.234 1492.46,541.688 1491.58,540.594 C 1490.7,539.49 1490.27,537.896 1490.27,535.813 C 1490.27,533.729 1490.7,532.135 1491.58,531.031 C 1492.46,529.927 1493.74,529.375 1495.41,529.375 C 1495.88,529.375 1496.32,529.427 1496.75,529.531 C 1497.19,529.635 1497.59,529.786 1497.97,529.984 C 1497.97,530.891 1497.97,531.797 1497.97,532.703 C 1497.55,532.318 1497.15,532.036 1496.75,531.859 C 1496.35,531.672 1495.95,531.578 1495.53,531.578 C 1494.64,531.578 1493.96,531.938 1493.5,532.656 C 1493.04,533.365 1492.81,534.417 1492.81,535.813 C 1492.81,537.208 1493.04,538.266 1493.5,538.984 C 1493.96,539.693 1494.64,540.047 1495.53,540.047 C 1495.95,540.047 1496.35,539.958 1496.75,539.781 C 1497.15,539.594 1497.55,539.307 1497.97,538.922 C 1497.97,539.828 1497.97,540.734 1497.97,541.641z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1509" y="540.847">
+        <tspan x="1509" y="540.847">FooterController</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="552" x2="1625.21" y2="552"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="560" x2="1625.21" y2="560"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1491" cy="573.648" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1500" y="576.995">
+        <tspan x="1500" y="576.995">Run(template)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="1480" y="600" width="186.239" height="64.2969" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1495" cy="616" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1497.97 621.641 C 1497.58,621.839 1497.18,621.984 1496.75,622.078 C 1496.32,622.182 1495.88,622.234 1495.41,622.234 C 1493.74,622.234 1492.46,621.688 1491.58,620.594 C 1490.7,619.49 1490.27,617.896 1490.27,615.813 C 1490.27,613.729 1490.7,612.135 1491.58,611.031 C 1492.46,609.927 1493.74,609.375 1495.41,609.375 C 1495.88,609.375 1496.32,609.427 1496.75,609.531 C 1497.19,609.635 1497.59,609.786 1497.97,609.984 C 1497.97,610.891 1497.97,611.797 1497.97,612.703 C 1497.55,612.318 1497.15,612.036 1496.75,611.859 C 1496.35,611.672 1495.95,611.578 1495.53,611.578 C 1494.64,611.578 1493.96,611.938 1493.5,612.656 C 1493.04,613.365 1492.81,614.417 1492.81,615.813 C 1492.81,617.208 1493.04,618.266 1493.5,618.984 C 1493.96,619.693 1494.64,620.047 1495.53,620.047 C 1495.95,620.047 1496.35,619.958 1496.75,619.781 C 1497.15,619.594 1497.55,619.307 1497.97,618.922 C 1497.97,619.828 1497.97,620.734 1497.97,621.641z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1509" y="620.847">
+        <tspan x="1509" y="620.847">LoggedDataController</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="632" x2="1665.24" y2="632"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="640" x2="1665.24" y2="640"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1491" cy="653.648" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1500" y="656.995">
+        <tspan x="1500" y="656.995">Run(template)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="1480" y="880" width="221.882" height="64.2969" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1495" cy="896" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1497.97 901.641 C 1497.58,901.839 1497.18,901.984 1496.75,902.078 C 1496.32,902.182 1495.88,902.234 1495.41,902.234 C 1493.74,902.234 1492.46,901.688 1491.58,900.594 C 1490.7,899.49 1490.27,897.896 1490.27,895.812 C 1490.27,893.729 1490.7,892.135 1491.58,891.031 C 1492.46,889.927 1493.74,889.375 1495.41,889.375 C 1495.88,889.375 1496.32,889.427 1496.75,889.531 C 1497.19,889.635 1497.59,889.786 1497.97,889.984 C 1497.97,890.891 1497.97,891.797 1497.97,892.703 C 1497.55,892.318 1497.15,892.036 1496.75,891.859 C 1496.35,891.672 1495.95,891.578 1495.53,891.578 C 1494.64,891.578 1493.96,891.937 1493.5,892.656 C 1493.04,893.365 1492.81,894.417 1492.81,895.812 C 1492.81,897.208 1493.04,898.266 1493.5,898.984 C 1493.96,899.693 1494.64,900.047 1495.53,900.047 C 1495.95,900.047 1496.35,899.958 1496.75,899.781 C 1497.15,899.594 1497.55,899.307 1497.97,898.922 C 1497.97,899.828 1497.97,900.734 1497.97,901.641z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1509" y="900.847">
+        <tspan x="1509" y="900.847">ClientUploadRestController</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="912" x2="1700.88" y2="912"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="920" x2="1700.88" y2="920"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1491" cy="933.648" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1500" y="936.995">
+        <tspan x="1500" y="936.995">Run(template)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="1480" y="960" width="166.237" height="64.2969" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1495" cy="976" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1497.97 981.641 C 1497.58,981.839 1497.18,981.984 1496.75,982.078 C 1496.32,982.182 1495.88,982.234 1495.41,982.234 C 1493.74,982.234 1492.46,981.688 1491.58,980.594 C 1490.7,979.49 1490.27,977.896 1490.27,975.812 C 1490.27,973.729 1490.7,972.135 1491.58,971.031 C 1492.46,969.927 1493.74,969.375 1495.41,969.375 C 1495.88,969.375 1496.32,969.427 1496.75,969.531 C 1497.19,969.635 1497.59,969.786 1497.97,969.984 C 1497.97,970.891 1497.97,971.797 1497.97,972.703 C 1497.55,972.318 1497.15,972.036 1496.75,971.859 C 1496.35,971.672 1495.95,971.578 1495.53,971.578 C 1494.64,971.578 1493.96,971.937 1493.5,972.656 C 1493.04,973.365 1492.81,974.417 1492.81,975.812 C 1492.81,977.208 1493.04,978.266 1493.5,978.984 C 1493.96,979.693 1494.64,980.047 1495.53,980.047 C 1495.95,980.047 1496.35,979.958 1496.75,979.781 C 1497.15,979.594 1497.55,979.307 1497.97,978.922 C 1497.97,979.828 1497.97,980.734 1497.97,981.641z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1509" y="980.847">
+        <tspan x="1509" y="980.847">VariablesController</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="992" x2="1645.24" y2="992"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="1000" x2="1645.24" y2="1000"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1491" cy="1013.65" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1500" y="1017">
+        <tspan x="1500" y="1017">Run(template)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="1480" y="1040" width="176.949" height="64.2969" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1495" cy="1056" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1497.97 1061.64 C 1497.58,1061.84 1497.18,1061.98 1496.75,1062.08 C 1496.32,1062.18 1495.88,1062.23 1495.41,1062.23 C 1493.74,1062.23 1492.46,1061.69 1491.58,1060.59 C 1490.7,1059.49 1490.27,1057.9 1490.27,1055.81 C 1490.27,1053.73 1490.7,1052.14 1491.58,1051.03 C 1492.46,1049.93 1493.74,1049.37 1495.41,1049.37 C 1495.88,1049.37 1496.32,1049.43 1496.75,1049.53 C 1497.19,1049.64 1497.59,1049.79 1497.97,1049.98 C 1497.97,1050.89 1497.97,1051.8 1497.97,1052.7 C 1497.55,1052.32 1497.15,1052.04 1496.75,1051.86 C 1496.35,1051.67 1495.95,1051.58 1495.53,1051.58 C 1494.64,1051.58 1493.96,1051.94 1493.5,1052.66 C 1493.04,1053.36 1492.81,1054.42 1492.81,1055.81 C 1492.81,1057.21 1493.04,1058.27 1493.5,1058.98 C 1493.96,1059.69 1494.64,1060.05 1495.53,1060.05 C 1495.95,1060.05 1496.35,1059.96 1496.75,1059.78 C 1497.15,1059.59 1497.55,1059.31 1497.97,1058.92 C 1497.97,1059.83 1497.97,1060.73 1497.97,1061.64z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1509" y="1060.85">
+        <tspan x="1509" y="1060.85">UseradminController</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="1072" x2="1655.95" y2="1072"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="1080" x2="1655.95" y2="1080"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1491" cy="1093.65" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1500" y="1097">
+        <tspan x="1500" y="1097">Run(template)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="1480" y="1120" width="139.611" height="64.2969" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1495" cy="1136" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1497.97 1141.64 C 1497.58,1141.84 1497.18,1141.98 1496.75,1142.08 C 1496.32,1142.18 1495.88,1142.23 1495.41,1142.23 C 1493.74,1142.23 1492.46,1141.69 1491.58,1140.59 C 1490.7,1139.49 1490.27,1137.9 1490.27,1135.81 C 1490.27,1133.73 1490.7,1132.14 1491.58,1131.03 C 1492.46,1129.93 1493.74,1129.37 1495.41,1129.37 C 1495.88,1129.37 1496.32,1129.43 1496.75,1129.53 C 1497.19,1129.64 1497.59,1129.79 1497.97,1129.98 C 1497.97,1130.89 1497.97,1131.8 1497.97,1132.7 C 1497.55,1132.32 1497.15,1132.04 1496.75,1131.86 C 1496.35,1131.67 1495.95,1131.58 1495.53,1131.58 C 1494.64,1131.58 1493.96,1131.94 1493.5,1132.66 C 1493.04,1133.36 1492.81,1134.42 1492.81,1135.81 C 1492.81,1137.21 1493.04,1138.27 1493.5,1138.98 C 1493.96,1139.69 1494.64,1140.05 1495.53,1140.05 C 1495.95,1140.05 1496.35,1139.96 1496.75,1139.78 C 1497.15,1139.59 1497.55,1139.31 1497.97,1138.92 C 1497.97,1139.83 1497.97,1140.73 1497.97,1141.64z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1509" y="1140.85">
+        <tspan x="1509" y="1140.85">MenuController</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="1152" x2="1618.61" y2="1152"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="1160" x2="1618.61" y2="1160"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1491" cy="1173.65" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1500" y="1177">
+        <tspan x="1500" y="1177">Run(template)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="1480" y="680" width="142.605" height="96.8906" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1495" cy="696" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1497.97 701.641 C 1497.58,701.839 1497.18,701.984 1496.75,702.078 C 1496.32,702.182 1495.88,702.234 1495.41,702.234 C 1493.74,702.234 1492.46,701.687 1491.58,700.594 C 1490.7,699.49 1490.27,697.896 1490.27,695.812 C 1490.27,693.729 1490.7,692.135 1491.58,691.031 C 1492.46,689.927 1493.74,689.375 1495.41,689.375 C 1495.88,689.375 1496.32,689.427 1496.75,689.531 C 1497.19,689.635 1497.59,689.786 1497.97,689.984 C 1497.97,690.891 1497.97,691.797 1497.97,692.703 C 1497.55,692.318 1497.15,692.036 1496.75,691.859 C 1496.35,691.672 1495.95,691.578 1495.53,691.578 C 1494.64,691.578 1493.96,691.937 1493.5,692.656 C 1493.04,693.365 1492.81,694.417 1492.81,695.812 C 1492.81,697.208 1493.04,698.266 1493.5,698.984 C 1493.96,699.693 1494.64,700.047 1495.53,700.047 C 1495.95,700.047 1496.35,699.958 1496.75,699.781 C 1497.15,699.594 1497.55,699.307 1497.97,698.922 C 1497.97,699.828 1497.97,700.734 1497.97,701.641z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1509" y="700.847">
+        <tspan x="1509" y="700.847">EditorController</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="712" x2="1621.61" y2="712"/>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1491" cy="725.648" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1500" y="728.995">
+        <tspan x="1500" y="728.995">blankPage :</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="736.297" x2="1621.61" y2="736.297"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1491" cy="749.945" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1500" y="753.292">
+        <tspan x="1500" y="753.292">Run(template)</tspan>
+      </text>
+      <rect style="fill: #f24d5c; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #c82930" x="1488" y="763.242" width="6" height="6" rx="0" ry="0"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1500" y="769.589">
+        <tspan x="1500" y="769.589">GetTaglist()</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="1480" y="1200" width="149.352" height="64.2969" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1495" cy="1216" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1497.97 1221.64 C 1497.58,1221.84 1497.18,1221.98 1496.75,1222.08 C 1496.32,1222.18 1495.88,1222.23 1495.41,1222.23 C 1493.74,1222.23 1492.46,1221.69 1491.58,1220.59 C 1490.7,1219.49 1490.27,1217.9 1490.27,1215.81 C 1490.27,1213.73 1490.7,1212.14 1491.58,1211.03 C 1492.46,1209.93 1493.74,1209.37 1495.41,1209.37 C 1495.88,1209.37 1496.32,1209.43 1496.75,1209.53 C 1497.19,1209.64 1497.59,1209.79 1497.97,1209.98 C 1497.97,1210.89 1497.97,1211.8 1497.97,1212.7 C 1497.55,1212.32 1497.15,1212.04 1496.75,1211.86 C 1496.35,1211.67 1495.95,1211.58 1495.53,1211.58 C 1494.64,1211.58 1493.96,1211.94 1493.5,1212.66 C 1493.04,1213.36 1492.81,1214.42 1492.81,1215.81 C 1492.81,1217.21 1493.04,1218.27 1493.5,1218.98 C 1493.96,1219.69 1494.64,1220.05 1495.53,1220.05 C 1495.95,1220.05 1496.35,1219.96 1496.75,1219.78 C 1497.15,1219.59 1497.55,1219.31 1497.97,1218.92 C 1497.97,1219.83 1497.97,1220.73 1497.97,1221.64z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1509" y="1220.85">
+        <tspan x="1509" y="1220.85">LogoutController</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="1232" x2="1628.35" y2="1232"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="1240" x2="1628.35" y2="1240"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1491" cy="1253.65" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1500" y="1257">
+        <tspan x="1500" y="1257">Run(template)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="1480" y="1280" width="156.906" height="64.2969" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1495" cy="1296" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1497.97 1301.64 C 1497.58,1301.84 1497.18,1301.98 1496.75,1302.08 C 1496.32,1302.18 1495.88,1302.23 1495.41,1302.23 C 1493.74,1302.23 1492.46,1301.69 1491.58,1300.59 C 1490.7,1299.49 1490.27,1297.9 1490.27,1295.81 C 1490.27,1293.73 1490.7,1292.14 1491.58,1291.03 C 1492.46,1289.93 1493.74,1289.37 1495.41,1289.37 C 1495.88,1289.37 1496.32,1289.43 1496.75,1289.53 C 1497.19,1289.64 1497.59,1289.79 1497.97,1289.98 C 1497.97,1290.89 1497.97,1291.8 1497.97,1292.7 C 1497.55,1292.32 1497.15,1292.04 1496.75,1291.86 C 1496.35,1291.67 1495.95,1291.58 1495.53,1291.58 C 1494.64,1291.58 1493.96,1291.94 1493.5,1292.66 C 1493.04,1293.36 1492.81,1294.42 1492.81,1295.81 C 1492.81,1297.21 1493.04,1298.27 1493.5,1298.98 C 1493.96,1299.69 1494.64,1300.05 1495.53,1300.05 C 1495.95,1300.05 1496.35,1299.96 1496.75,1299.78 C 1497.15,1299.59 1497.55,1299.31 1497.97,1298.92 C 1497.97,1299.83 1497.97,1300.73 1497.97,1301.64z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1509" y="1300.85">
+        <tspan x="1509" y="1300.85">ScreensController</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="1312" x2="1635.91" y2="1312"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="1320" x2="1635.91" y2="1320"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1491" cy="1333.65" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1500" y="1337">
+        <tspan x="1500" y="1337">Run(template)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="1480" y="1360" width="134.703" height="64.2969" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1495" cy="1376" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1497.97 1381.64 C 1497.58,1381.84 1497.18,1381.98 1496.75,1382.08 C 1496.32,1382.18 1495.88,1382.23 1495.41,1382.23 C 1493.74,1382.23 1492.46,1381.69 1491.58,1380.59 C 1490.7,1379.49 1490.27,1377.9 1490.27,1375.81 C 1490.27,1373.73 1490.7,1372.14 1491.58,1371.03 C 1492.46,1369.93 1493.74,1369.37 1495.41,1369.37 C 1495.88,1369.37 1496.32,1369.43 1496.75,1369.53 C 1497.19,1369.64 1497.59,1369.79 1497.97,1369.98 C 1497.97,1370.89 1497.97,1371.8 1497.97,1372.7 C 1497.55,1372.32 1497.15,1372.04 1496.75,1371.86 C 1496.35,1371.67 1495.95,1371.58 1495.53,1371.58 C 1494.64,1371.58 1493.96,1371.94 1493.5,1372.66 C 1493.04,1373.36 1492.81,1374.42 1492.81,1375.81 C 1492.81,1377.21 1493.04,1378.27 1493.5,1378.98 C 1493.96,1379.69 1494.64,1380.05 1495.53,1380.05 C 1495.95,1380.05 1496.35,1379.96 1496.75,1379.78 C 1497.15,1379.59 1497.55,1379.31 1497.97,1378.92 C 1497.97,1379.83 1497.97,1380.73 1497.97,1381.64z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1509" y="1380.85">
+        <tspan x="1509" y="1380.85">ViewController</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="1392" x2="1613.7" y2="1392"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="1400" x2="1613.7" y2="1400"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1491" cy="1413.65" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1500" y="1417">
+        <tspan x="1500" y="1417">Run(template)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="1480" y="1440" width="158.595" height="64.2969" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1495" cy="1456" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1497.97 1461.64 C 1497.58,1461.84 1497.18,1461.98 1496.75,1462.08 C 1496.32,1462.18 1495.88,1462.23 1495.41,1462.23 C 1493.74,1462.23 1492.46,1461.69 1491.58,1460.59 C 1490.7,1459.49 1490.27,1457.9 1490.27,1455.81 C 1490.27,1453.73 1490.7,1452.14 1491.58,1451.03 C 1492.46,1449.93 1493.74,1449.37 1495.41,1449.37 C 1495.88,1449.37 1496.32,1449.43 1496.75,1449.53 C 1497.19,1449.64 1497.59,1449.79 1497.97,1449.98 C 1497.97,1450.89 1497.97,1451.8 1497.97,1452.7 C 1497.55,1452.32 1497.15,1452.04 1496.75,1451.86 C 1496.35,1451.67 1495.95,1451.58 1495.53,1451.58 C 1494.64,1451.58 1493.96,1451.94 1493.5,1452.66 C 1493.04,1453.36 1492.81,1454.42 1492.81,1455.81 C 1492.81,1457.21 1493.04,1458.27 1493.5,1458.98 C 1493.96,1459.69 1494.64,1460.05 1495.53,1460.05 C 1495.95,1460.05 1496.35,1459.96 1496.75,1459.78 C 1497.15,1459.59 1497.55,1459.31 1497.97,1458.92 C 1497.97,1459.83 1497.97,1460.73 1497.97,1461.64z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1509" y="1460.85">
+        <tspan x="1509" y="1460.85">SettingsController</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="1472" x2="1637.59" y2="1472"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="1480" x2="1637.59" y2="1480"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1491" cy="1493.65" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1500" y="1497">
+        <tspan x="1500" y="1497">Run(template)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="1480" y="1520" width="165.827" height="64.2969" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1495" cy="1536" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1497.97 1541.64 C 1497.58,1541.84 1497.18,1541.98 1496.75,1542.08 C 1496.32,1542.18 1495.88,1542.23 1495.41,1542.23 C 1493.74,1542.23 1492.46,1541.69 1491.58,1540.59 C 1490.7,1539.49 1490.27,1537.9 1490.27,1535.81 C 1490.27,1533.73 1490.7,1532.14 1491.58,1531.03 C 1492.46,1529.93 1493.74,1529.37 1495.41,1529.37 C 1495.88,1529.37 1496.32,1529.43 1496.75,1529.53 C 1497.19,1529.64 1497.59,1529.79 1497.97,1529.98 C 1497.97,1530.89 1497.97,1531.8 1497.97,1532.7 C 1497.55,1532.32 1497.15,1532.04 1496.75,1531.86 C 1496.35,1531.67 1495.95,1531.58 1495.53,1531.58 C 1494.64,1531.58 1493.96,1531.94 1493.5,1532.66 C 1493.04,1533.36 1492.81,1534.42 1492.81,1535.81 C 1492.81,1537.21 1493.04,1538.27 1493.5,1538.98 C 1493.96,1539.69 1494.64,1540.05 1495.53,1540.05 C 1495.95,1540.05 1496.35,1539.96 1496.75,1539.78 C 1497.15,1539.59 1497.55,1539.31 1497.97,1538.92 C 1497.97,1539.83 1497.97,1540.73 1497.97,1541.64z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1509" y="1540.85">
+        <tspan x="1509" y="1540.85">ViewRestController</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="1552" x2="1644.83" y2="1552"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="1560" x2="1644.83" y2="1560"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1491" cy="1573.65" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1500" y="1577">
+        <tspan x="1500" y="1577">Run(template)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="1480" y="800" width="168.951" height="64.2969" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1495" cy="816" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1497.97 821.641 C 1497.58,821.839 1497.18,821.984 1496.75,822.078 C 1496.32,822.182 1495.88,822.234 1495.41,822.234 C 1493.74,822.234 1492.46,821.688 1491.58,820.594 C 1490.7,819.49 1490.27,817.896 1490.27,815.812 C 1490.27,813.729 1490.7,812.135 1491.58,811.031 C 1492.46,809.927 1493.74,809.375 1495.41,809.375 C 1495.88,809.375 1496.32,809.427 1496.75,809.531 C 1497.19,809.635 1497.59,809.786 1497.97,809.984 C 1497.97,810.891 1497.97,811.797 1497.97,812.703 C 1497.55,812.318 1497.15,812.036 1496.75,811.859 C 1496.35,811.672 1495.95,811.578 1495.53,811.578 C 1494.64,811.578 1493.96,811.937 1493.5,812.656 C 1493.04,813.365 1492.81,814.417 1492.81,815.812 C 1492.81,817.208 1493.04,818.266 1493.5,818.984 C 1493.96,819.693 1494.64,820.047 1495.53,820.047 C 1495.95,820.047 1496.35,819.958 1496.75,819.781 C 1497.15,819.594 1497.55,819.307 1497.97,818.922 C 1497.97,819.828 1497.97,820.734 1497.97,821.641z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1509" y="820.847">
+        <tspan x="1509" y="820.847">NotFoundController</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="832" x2="1647.95" y2="832"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="840" x2="1647.95" y2="840"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1491" cy="853.648" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1500" y="856.995">
+        <tspan x="1500" y="856.995">Run(template)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="1480" y="1600" width="139.96" height="64.2969" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1495" cy="1616" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1497.97 1621.64 C 1497.58,1621.84 1497.18,1621.98 1496.75,1622.08 C 1496.32,1622.18 1495.88,1622.23 1495.41,1622.23 C 1493.74,1622.23 1492.46,1621.69 1491.58,1620.59 C 1490.7,1619.49 1490.27,1617.9 1490.27,1615.81 C 1490.27,1613.73 1490.7,1612.14 1491.58,1611.03 C 1492.46,1609.93 1493.74,1609.37 1495.41,1609.37 C 1495.88,1609.37 1496.32,1609.43 1496.75,1609.53 C 1497.19,1609.64 1497.59,1609.79 1497.97,1609.98 C 1497.97,1610.89 1497.97,1611.8 1497.97,1612.7 C 1497.55,1612.32 1497.15,1612.04 1496.75,1611.86 C 1496.35,1611.67 1495.95,1611.58 1495.53,1611.58 C 1494.64,1611.58 1493.96,1611.94 1493.5,1612.66 C 1493.04,1613.36 1492.81,1614.42 1492.81,1615.81 C 1492.81,1617.21 1493.04,1618.27 1493.5,1618.98 C 1493.96,1619.69 1494.64,1620.05 1495.53,1620.05 C 1495.95,1620.05 1496.35,1619.96 1496.75,1619.78 C 1497.15,1619.59 1497.55,1619.31 1497.97,1618.92 C 1497.97,1619.83 1497.97,1620.73 1497.97,1621.64z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1509" y="1620.85">
+        <tspan x="1509" y="1620.85">IndexController</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="1632" x2="1618.96" y2="1632"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="1640" x2="1618.96" y2="1640"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1491" cy="1653.65" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1500" y="1657">
+        <tspan x="1500" y="1657">Run(template)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #f1f1f1; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.5; stroke-linejoin: round; stroke: #181818" x="1480" y="40" width="171.583" height="64.2969" rx="2.5" ry="2.5"/>
+      <ellipse style="fill: #add1b2; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke-linejoin: round; stroke: #181818" cx="1495" cy="56" rx="11" ry="11"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 0; stroke-width: 0.02; stroke: #ffffff" fill-rule="evenodd" d="M 1497.97 61.6406 C 1497.58,61.8385 1497.18,61.9844 1496.75,62.0781 C 1496.32,62.1823 1495.88,62.2344 1495.41,62.2344 C 1493.74,62.2344 1492.46,61.6875 1491.58,60.5938 C 1490.7,59.4896 1490.27,57.8958 1490.27,55.8125 C 1490.27,53.7292 1490.7,52.1354 1491.58,51.0313 C 1492.46,49.9271 1493.74,49.375 1495.41,49.375 C 1495.88,49.375 1496.32,49.4271 1496.75,49.5313 C 1497.19,49.6354 1497.59,49.7865 1497.97,49.9844 C 1497.97,50.8906 1497.97,51.7969 1497.97,52.7031 C 1497.55,52.3177 1497.15,52.0365 1496.75,51.8594 C 1496.35,51.6719 1495.95,51.5781 1495.53,51.5781 C 1494.64,51.5781 1493.96,51.9375 1493.5,52.6563 C 1493.04,53.3646 1492.81,54.4167 1492.81,55.8125 C 1492.81,57.2084 1493.04,58.2657 1493.5,58.9844 C 1493.96,59.6927 1494.64,60.0469 1495.53,60.0469 C 1495.95,60.0469 1496.35,59.9584 1496.75,59.7813 C 1497.15,59.5938 1497.55,59.3073 1497.97,58.9219 C 1497.97,59.8281 1497.97,60.7344 1497.97,61.6406z"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1509" y="60.8467">
+        <tspan x="1509" y="60.8467">ForbiddenController</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="72" x2="1650.58" y2="72"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #181818" x1="1481" y1="80" x2="1650.58" y2="80"/>
+      <ellipse style="fill: #84be84; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #038048" cx="1491" cy="93.6484" rx="3" ry="3"/>
+      <text font-size="14" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1500" y="96.9951">
+        <tspan x="1500" y="96.9951">Run(template)</tspan>
+      </text>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="1460" y1="28" x2="1163.95" y2="28"/>
+    <g>
+      <polygon style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #000000" fill-rule="evenodd" points="1189,38 1418.3,38 1430.3,50 1430.3,104.006 1189,104.006 "/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 0.5; stroke: #000000" points="1418.3,38 1418.3,50 1430.3,50 "/>
+      <text font-size="12.8014" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1195.5" y="62.3825">
+        <tspan x="1195.5" y="62.3825">A Page kontrollerek is</tspan>
+        <tspan x="1195.5" y="78.3845">azon osztályokat használják,</tspan>
+        <tspan x="1195.5" y="94.3865">melyeket a Controller osztály</tspan>
+      </text>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke-dasharray: 10; stroke: #000000" d="M 946.385 27.745 C 887.791,-24.9972 730.853,23.1544 725.958,32.1739"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #000000" fill-rule="evenodd" points="722.38,38.7656 722.756,27.5915 725.958,32.1739 731.545,32.3618 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke-dasharray: 10; stroke: #000000" d="M 664.004 39.9597 C 642.515,-5.13402 534.452,24.6525 520.953,34.6253"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #000000" fill-rule="evenodd" points="514.921,39.0819 519.993,29.1183 520.953,34.6253 525.935,37.1614 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke-dasharray: 10; stroke: #000000" d="M 902.856 157.724 C 801.766,214.482 647.717,120.134 623.05,211.44"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #000000" fill-rule="evenodd" points="621.094,218.68 618.875,207.722 623.05,211.44 628.529,210.33 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke-dasharray: 10; stroke: #000000" x1="509.701" y1="1050.42" x2="510.345" y2="1291.13"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #000000" fill-rule="evenodd" points="510.366,1298.63 505.339,1288.64 510.345,1291.13 515.339,1288.61 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 3; stroke: #000000" x1="1456" y1="637.3" x2="1364.41" y2="500.107"/>
+      <polygon style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 3; stroke: #000000" fill-rule="evenodd" points="1368.57,497.33 1358.86,491.79 1360.26,502.883 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke-dasharray: 10; stroke: #000000" d="M 1006.85 157.74 C 993.16,233.498 1000.35,445.06 1005,531.158"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #000000" fill-rule="evenodd" points="1005.4,538.647 999.868,528.931 1005,531.158 1009.85,528.392 "/>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="1459" y1="33" x2="1162.95" y2="33"/>
+  </g>
+</svg>

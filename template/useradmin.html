@@ -1,0 +1,200 @@
+<div id="maindiv">
+    §RESPONSE§
+    <div class="field">
+        <p class="title">
+            <img src="img/group_b.svg" class="icon" alt="group">
+            Felhasználói csoportok:
+        </p>
+        <table class="collapse stricttable">
+            <tr>
+                <th></th>
+                <th>
+                    Csoport
+                </th>
+                <th>
+                    Oldal lista (Mérnök: *)
+                </th>
+                <th>
+                    Műveletek
+                </th>
+            </tr>
+            §GROUPSTABLE§
+        </table>
+        <p class="right minm">
+            <button class="normalinput" onclick="ID('addgroupdialog').showModal();">Csoport hozzáadása</button>
+        </p>
+    </div>
+    <div class="field">
+        <p class="title">
+            <img src="img/user_b.svg" class="icon" alt="user">
+            Felhasználók:
+        </p>
+        <table class="collapse stricttable">
+            <tr>
+                <th></th>
+                <th>
+                    Felhasználó neve
+                </th>
+                <th>
+                    Csoport
+                </th>
+                <th>
+                    Műveletek
+                </th>
+            </tr>
+        §USERSTABLE§
+        </table>
+        <p class="right minm">
+            <button class="normalinput" onclick="ID('adduserdialog').showModal();">Felhasználó hozzáadása</button>
+        </p>
+    </div>
+    <div class="field info">
+        <p>
+            Az <i>engineer</i> (mérnök) <b>csoport</b>hoz rendelt felhasználók minden SCADA oldalhoz hozzáférnek, és szerkeszthetik azokat.
+            Ezen kívül változókat, kommunikációs csomópontokat (adatgyűjtőket és PLC-ket) is menedzselhetnek. A felhasználók adminisztrációja
+            is csak a mérnök csoport tagjainak lehetséges.<br>
+            Az <i>engineer</i> <b>felhasználó</b> az engineer csoport nem törölhető tagja.
+        </p>
+    </div>
+</div>
+
+<!--DIALOG-ok:-->
+<dialog id="pageman">
+    <p class="title">Oldalengedélyek hozzáadása / megvonása</p>
+    <p>Csoportnév: "<i><span id="grouplabel"></span></i>"</p>
+    <form method="post" id="pagemanform">
+        <input type="hidden" value="modifyGroupPages" name="todo" />
+        <input type="hidden" id="groupname" name="groupname" />
+        <label for="selfpages">Oldalak listája:</label><br>
+        <select multiple name="selfpages[]" id="selfpages" class="w100" style="height: 10rem; max-height: 25vh;">
+            <!--Úgy sem lehet kiválasztani, törlendő. <option value="*" onclick="this.parentNode.value=this.value;">*</option>-->
+            §PAGELISTOPTIONS§
+        </select>
+    </form>
+    <button class="warning" onclick="submitPageman()">Mentés</button>
+    <button onclick="this.parentNode.close()">Mégsem</button>
+</dialog>
+
+<dialog id="groupman">
+    <p class="title">Csoport kiválasztása</p>
+    <p>Felhasználónév: "<i><span id="userlabel"></span></i>"</p>
+    <form method="post" id="groupmanform">
+        <input type="hidden" value="modifyUserGroup" name="todo" />
+        <input type="hidden" id="username" name="username" />
+        <label for="selfpages">Válasszon csoportot:</label><br>
+        <select name="selfgroup" id="selfgroup" class="w100">
+            <option value="NO_GROUP">-Nincs csoportja-</option>
+            §GROUPOPTIONS§
+        </select>
+    </form>
+    <button class="warning" onclick="submitGroupman()">Mentés</button>
+    <button onclick="this.parentNode.close()">Mégsem</button>
+</dialog>
+
+<dialog id="addgroupdialog">
+    <p class="title">Új csoport hozzáadása</p>
+    <form method="post" id="addgroup">
+        <input type="hidden" value="addGroup" name="todo" />
+        <input type="text" id="addg" name="groupname" pattern="§REGEX§" placeholder="Új csoport neve" onkeydown="this.style.backgroundColor ='';" />
+        <div class="bubble-small">
+            §NAMEDESCRIPTION§
+        </div><br>
+    </form>
+    <button class="warning" onclick="submitAddGroup()">Hozzáadás</button>
+    <button onclick="this.parentNode.close()">Mégsem</button>
+</dialog>
+
+<dialog id="adduserdialog">
+    <p class="title">Új felhasználó hozzáadása</p>
+    <form method="post" id="adduser">
+        <input type="hidden" value="addUser" name="todo" />
+        <input type="text" id="addu" name="username" pattern="§REGEX§" placeholder="Új felhasználó neve" onkeydown="this.style.backgroundColor ='';" />
+        <div class="bubble-small">
+            §NAMEDESCRIPTION§
+        </div><br>
+    </form>
+    <button class="warning" onclick="submitAddUser()">Hozzáadás</button>
+    <button onclick="this.parentNode.close()">Mégsem</button>
+</dialog>
+
+<!--Segéd FORM-ok:-->
+<form method="post" id="delgroupform">
+    <input type="hidden" id="delgroup" name="groupname" />
+    <input type="hidden" value="delGroup" name="todo" />
+</form>
+
+<form method="post" id="deluserform">
+    <input type="hidden" id="deluser" name="username" />
+    <input type="hidden" value="delUser" name="todo" />
+</form>
+
+<!--És a scriptek:-->
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+    function toolSelected(sel,g){
+      var selfPages = JSON.parse(sel.dataset.selfpages);
+      if(sel.value == 'pli') {
+        ID('grouplabel').textContent = g;
+        ID('groupname').value = g;
+        for(let i = 0;i < selfPages.length;i++){
+          for (let j = 0;j < ID("selfpages").options.length;j++) {
+              if(ID("selfpages").options[j].value == selfPages[i]){
+                ID("selfpages").options[j].selected = "selected";
+              }
+          }
+        }
+        ID("pageman").showModal();
+      }
+      else if (sel.value == 'del') {
+          Confirm("Biztos törli a csoportot? (" + g + ")", "Igen" ,"Mégsem", ()=>{
+            ID('delgroup').value = g;
+            ID('delgroupform').submit();
+          });
+      }
+      sel.value="";
+    }
+
+
+    function userToolSelected(sel,u,g){
+      if(sel.value == 'gm') {
+        ID('userlabel').textContent = u;
+        ID('username').value = u;
+        ID('selfgroup').value = g;
+        ID("groupman").showModal();
+      }
+      else if (sel.value == 'del') {
+          Confirm("Biztos törli a felhasználót? (" + u + ")", "Igen" ,"Mégsem", ()=>{
+            ID('deluser').value = u;
+            ID('deluserform').submit();
+          });
+      }
+      sel.value="";
+    }
+
+
+    function submitPageman() {
+        ID("pagemanform").submit();
+    }
+    function submitGroupman() {
+        ID("groupmanform").submit();
+    }
+    function submitAddGroup() {
+        if (!ID('addg').checkValidity()|| ID('addg').value.length < 1) {
+            ID('addg').placeholder="Max 64 betű, min 1.";
+            ID('addg').value = "";
+        }
+        else {
+            ID('addgroup').submit();
+        }
+    }
+    function submitAddUser() {
+        if (!ID('addu').checkValidity() || ID('addu').value.length < 1) {
+            ID('addu').placeholder="Max 32 betű, min 1.";
+            ID('addu').value = "";
+        }
+        else {
+            ID('adduser').submit();
+        }
+    }
+
+</script>

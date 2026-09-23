@@ -1,0 +1,146 @@
+<div id="maindiv">
+    §RESPONSE§
+    <details class="field center" open>
+        <summary class="left active">Kliens és csomópont választás, beállítások</summary>
+        <div class="left field">
+            <b>Kiválasztás:</b><br>
+            <table class="center stricttable collapse excel">
+                <tr><th>#</th><th>Kliens (client)</th><th>Csomópont (node/PLC)</th><th>Kiválaszt</th></tr>
+                §PLCLIST§
+            </table>
+        </div>
+        <div class="left field">
+            <b>Opciók:</b><br>
+            <div style="display: inline-block; border: solid 1px gray; padding: 0.5rem; margin: 0.5rem;">
+                <label for="delalert">Törlés megerősítése:&nbsp;</label>
+                <input type="checkbox" id="delalert" checked>
+            </div>
+            <div style="display: inline-block;">
+                <button onclick="ExportVariables()" §EXPORTDISABLED§>Exportálás CSV</button>
+                <button onclick="ImportVariables()" §EXPORTDISABLED§>Importálás CSV</button>
+                <button onclick="DelAll()" class="warning" §EXPORTDISABLED§>Összes törlése</button>
+            </div>
+        </div>
+    </details>
+    <div class="field">
+        <p class="title">
+            Változók listája:
+        </p>
+        <p class="minm" style="display: §DISPLAYTITLE§">Kliens: <b>§CLIENT§</b>, csomópont: <b>§NODE§</b></p>
+        <table class="stricttable collapse excel">
+            <tr>
+                <th style="cursor: s-resize;" onclick="Sort('')">#</th>
+                <th style="cursor: s-resize;" onclick="Sort('symbol')">Symbol név <span>§SORTSYMBOL§</span></th>
+                <th style="cursor: s-resize;" onclick="Sort('datatype')">Adattípus <span>§SORTDATATYPE§</span></th>
+                <th style="cursor: s-resize;" onclick="Sort('address')">Cím <span>§SORTADDRESS§</span></th>
+                <th>Komment</th>
+                <th title="Csak olvasható">R.O.</th>
+                <th>Törlés</th>
+            </tr>
+            <tbody id="vartablebody">
+                §VARIABLETABLE§
+            </tbody>
+        </table>
+        <p class="right minm">
+            <button class="normalinput" id="savebutton" disabled onclick="saveToSQL(true)">Mentés</button>
+            <button class="normalinput" onclick="addrow();">&nbsp;+&nbsp;</button>
+        </p>
+        <p class="minm warning" id="unsavedalert" style="display: none;">Mentse a változásokat!</p>
+    </div>
+    <br>
+    <br>
+    <br>
+</div>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/variable.js"></script>
+<script type="text/javascript">
+    //Ezek PHP részeket tartalmaznak, ezért nem kerültek a variable.js-be.
+    function sqlDelete(symbol) {
+        var xhr = new XMLHttpRequest();
+        xhr.onload = () => {
+            if (JSON.parse(xhr.responseText).ok) {
+                saveToSQL();
+            }
+            else {
+                Alert("A törlés részben, vagy egészben sikertelen!", "OK");
+                delSymbol = delSymbolBackup;
+                Tekero(flase);
+            }
+        }
+        var f = new FormData();
+        f.append("todo", "delete");
+        f.append("client", "§CLIENT§");
+        f.append("nodename", "§NODE§");
+        f.append("symbol", symbol);
+
+        xhr.open("POST", "?p=variables&clientselected=§CLIENT§&nodeselected=§NODE§", true);
+
+        xhr.send(f);
+
+    }
+    function sqlInsert(tr) {
+        var xhr = new XMLHttpRequest();
+        xhr.onload = () => {
+            if (JSON.parse(xhr.responseText).ok) {
+                tr.className = "";
+                saveToSQL();
+            }
+            else {
+                Alert("A beszúrás részben, vagy egészben sikertelen!", "OK");
+                Tekero(flase);
+            }
+        }
+        var f = new FormData();
+        f.append("todo", "insert");
+        f.append("client", "§CLIENT§");
+        f.append("nodename", "§NODE§");
+        f.append("symbol", tr.children[1].children[0].value);
+        f.append("datatype", tr.children[2].children[0].value);
+        f.append("address", tr.children[3].children[0].value);
+        f.append("comment", tr.children[4].children[0].value);
+        f.append("readonly", tr.children[5].children[0].checked ? '1' : '0');
+
+        xhr.open("POST", "?p=variables&clientselected=§CLIENT§&nodeselected=§NODE§", true);
+        //xhr.setRequestHeader('Content-Type', 'multipart/form-data');
+
+        xhr.send(f);
+
+    }
+    function sqlUpdate(tr) {
+        var xhr = new XMLHttpRequest();
+        xhr.onload = () => {
+            if (JSON.parse(xhr.responseText).ok) {
+                tr.className = "";
+                saveToSQL();
+            }
+            else {
+                Alert("A felülírás részben, vagy egészben sikertelen!", "OK");
+                Tekero(flase);
+            }
+        }
+        var f = new FormData();
+        f.append("todo", "update");
+        f.append("client", "§CLIENT§");
+        f.append("nodename", "§NODE§");
+        f.append("symbol", tr.children[1].children[0].dataset.sqlvalue);
+        f.append("newsymbol", tr.children[1].children[0].value);
+        f.append("datatype", tr.children[2].children[0].value);
+        f.append("address", tr.children[3].children[0].value);
+        f.append("comment", tr.children[4].children[0].value);
+        f.append("readonly", tr.children[5].children[0].checked ? '1' : '0');
+
+        xhr.open("POST", "?p=variables&clientselected=§CLIENT§&nodeselected=§NODE§", true);
+
+        xhr.send(f);
+    }
+
+    function Sort(by) {
+        window.location = "?p=variables&clientselected=§CLIENT§&nodeselected=§NODE§&sort=" + by;
+    }
+
+
+    function SubmitNodeSelect(){
+        cb = event.target;
+        window.location = '?p=variables&clientselected=' + cb.dataset.client +  '&nodeselected=' + cb.dataset.node;
+    }
+</script>

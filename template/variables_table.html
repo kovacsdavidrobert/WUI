@@ -1,0 +1,29 @@
+
+<tr data-vlistrow="§INDEX§"§DATASETSQL§>
+    <th>§INDEX§</th>
+    <td><input class="primarycolumn" type="text" required onchange="unsaved(this)"
+               pattern="§SYMBOLREGEX§" value="§SYMBOL§" data-sqlvalue="§SYMBOL§"/></td>
+    <td>
+      <select onchange="unsaved(this)" data-sqlvalue="§DATATYPE§" value="§DATATYPE§">
+        <option value="Bit"§BIT§>Bit</option>
+        <option value="Int8"§INT8§>Int8</option>
+        <option value="UInt8"§UINT8§>UInt8</option>
+        <option value="Int16BE"§INT16BE§>Int16BE(S7)</option>
+        <option value="Int16LE"§INT16LE§>Int16LE</option>
+        <option value="UInt16BE"§UINT16BE§>UInt16BE(S7)</option>
+        <option value="UInt16LE"§UINT16LE§>UInt16LE</option>
+        <option value="Int32BE"§INT32BE§>Int32BE(S7)</option>
+        <option value="Int32LE"§INT32LE§>Int32LE</option>
+        <option value="UInt32BE"§UINT32BE§>UInt32BE(S7)</option>
+        <option value="UInt32LE"§UINT32LE§>UInt32LE</option>
+        <option value="FloatBE"§FLOATBE§>FloatBE(S7)</option>
+        <option value="FloatLE"§FLOATLE§>FloatLE</option>
+      </select>
+    </td>
+    <td><input onchange="unsaved(this)" pattern="§ADDRESSREGEX§" required type="text" value="§ADDRESS§" data-sqlvalue="§ADDRESS§" /></td>
+    <td><input onchange="unsaved(this)" pattern="§COMMENTREGEX§" type="text" value="§COMMENT§" data-sqlvalue="§COMMENT§" /></td>
+    <td title="Csak olvasható"><input type="checkbox" onchange="unsaved(this)" §ROCHECKED§ data-sqlvalue="§ROTRUE§"></td>
+    <td>
+      <input type="button" class="normalinput" onclick="markToDelete(this.parentNode.parentNode)" value="&nbsp;-&nbsp;" />
+    </td>
+</tr>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="text/javascript" src="js/wuiObjects.js"></script>
+    <script type="text/javascript" src="js/editor.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <link rel="stylesheet" href="css/editor.css" />
+    <link rel="icon" type="image/png" href="img/wui.png">
+    <title>
+        GUI Editor
+    </title>
+</head>
+<body>
+    <div class="dropDownMenu" onmouseover="InitDropDown();">
+        <small>Név:</small>
+        <br>
+        <b>§PAGE§</b>
+        <hr>
+        <ul class="menu">
+            <a href="?p=index">
+                <li>
+                    <img src="img/main.svg" class="icon" alt=""> Főoldal
+                </li>
+            </a>
+            <a href="#">
+                <li onclick="window.open('?p=view&page=§PAGEURL§', 'v_§PAGE§').focus()">
+                    <img src="img/play.svg" class="icon" alt=""> Oldal futtatása
+                </li>
+            </a>
+            <hr>
+            <li>
+                <div class="active">
+                    Háttérszín:
+                    <input type="color" id="bgInput" onchange="SetBgColor();" />
+                </div>
+            </li>
+            <li>
+                <div class="active" id="pageprop" onclick="SetPageProp();">
+                    Oldaltulajdonságok...
+                </div>
+            </li>
+            <li>
+                <div class="active" id="savebutton" onclick="UploadGui('§PAGE§');">
+                    Mentés
+                </div>
+            </li>
+            <li>
+                <div class="active" id="exportbutton" onclick="ExportGUI('§PAGE§');">
+                    Exportálás
+                </div>
+            </li>
+            <li>
+                <div class="active" id="exportbutton" onclick="ImportGUI();">
+                    Importálás...
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div id="floatDropDownMenu" onclick="this.style.display='none';">
+        <p id="menuCopy" onclick="if(this.className=='inactive')return; CopySelected();"><u>Másolás</u></p>
+        <p id="menuPaste" class="inactive" onclick="if(this.className=='inactive')return; PasteSelected();">
+            <u>Beillesztés</u></p>
+        <p id="menuCopySys" onclick="if(this.className=='inactive')return; CopySelectedSys();"><u>Másolás</u> a rendszer
+            vágólapjára</p>
+        <p id="menuPasteSys" onclick="if(this.className=='inactive')return; PasteSelectedSys0();"><u>Beillesztés</u> a
+            rendszer vágólapjáról...</p>
+        <p id="menuDel" onclick="if(this.className=='inactive')return; DelSelected();"><u>Törlés</u></p>
+        <p id="menuTag" onclick="if(this.className=='inactive')return; ID('taglistbutton').click();"><u>Tagkapcsolat</u></p>
+        <p id="menuCSS" onclick="if(this.className=='inactive')return; EditCSS();"><u>CSS szerkesztése</u></p>
+    </div>
+    <div id="maindiv">
+        <div id="topbar">
+            <div id="logo">
+                <img src="img/logowui.png" />
+                <div id="version">
+                    KDR <span id="versionText"></span>
+                </div>
+            </div>
+            <div class="hscroll">
+                <div class="horizontal-bar">
+                    <div id="floatbar" class="hscroll" onclick="this.style.display = 'none'">
+                        <div class="horizontal-bar">
+                            <img class="active" src="img/entryButton.png" title="Új bekérő gomb" onclick="AddEntryButton();" />
+                            <img class="active" src="img/jsButton.png" title="Új JavaScript gomb" onclick="AddJsButton();" />
+                            <img class="active" src="img/bar.png" title="Új Oszlop indikátor (%)" onclick="AddBar();" />
+                            <img class="active" src="img/minimalEntry.png" title="Új minimál szám mező" onclick="AddMinimalEntry();" />
+                            <img class="active" src="img/delete.png" title="Bezár" style="padding-left:10px;" />
+                        </div>
+                    </div>
+                    <img class="active" src="img/additional.png" title="További objektumok..." onclick="ID('floatbar').style.display='block'"/>
+                </div>
+                <div class="horizontal-bar">
+                    <img class="active" id="selectIcon" src="img/select_all.png" title="Mindent kijelöl"
+                        onclick="setAll();" />
+                    <img class="inactive" id="copyIcon" src="img/copy.png" title="Másolás" onclick="CopySelected();" />
+                    <img class="inactive" id="pasteIcon" src="img/paste.png" title="Beillesztés"
+                        onclick="pasteSelected();" />
+                    <img class="inactive" id="delIcon" src="img/delete.png" title="Töröl" onclick="DelSelected();" />
+                    <img class="inactive" id="undoIcon" src="img/undo.png" disabled title="Visszavonás" onclick="Undo(-1);" />
+                    <img class="inactive" id="redoIcon" src="img/redo.png" disabled title="Ismét" onclick="Undo(1);" />
+                </div>
+                <div class="horizontal-bar">
+                    <img class="active" id="zoomInIcon" src="img/zoom_in.png" title="Közelít" onclick="ZoomIn();" />
+                    <img class="active" id="zoom11Icon" src="img/zoom11.png" title="1:1" onclick="Zoom11();" />
+                    <img class="active" id="zoomOutIcon" src="img/zoom_out.png" title="Távolít" onclick="ZoomOut();" />
+                    <img class="active" id="zoomOutIcon" src="img/raster10.png" title="Raszter" onclick="RasterToggle(this);" />
+                </div>
+                <div class="horizontal-bar" style="margin-right: 3rem;">
+                    <img class="active" src="img/number.png" title="Új szám mező" onclick="AddEntry();" />
+                    <img class="active" src="img/switch.png" title="Új kapcsoló" onclick="AddSwitch();" />
+                    <img class="active" src="img/button.png" title="Új beírógomb" onclick="AddButton();" />
+                    <img class="active" src="img/lamp.png" title="Új lámpa" onclick="AddLamp();" />
+
+                    <img class="active" src="img/plan_text.png" title="Új szöveg" onclick="AddText(false);" />
+                    <img class="active" src="img/text.png" title="Új szövegdoboz" onclick="AddText(true);" />
+                    <img class="active" src="img/picture.png" title="Új kép" onclick="AddPicture();" />
+                    <img class="active" src="img/square.png" title="Új téglalap" onclick="AddSquare();" />
+                    <img class="active" src="img/alarm.png" title="Új üzenet ablak" onclick="AddAlarmWindow();" />
+                </div>
+            </div>
+        </div>
+        <div id="bottomdiv">
+            <div id="bottomarrea">
+                <div id="leftbar">
+                    Objektumok: <br />
+                    <select class="w100" readonly="readonly" multiple size="4" id="selectedTag"
+                        onchange="SelectClicked();">
+                    </select>
+                    Tulajdonságok:
+                    <div id="prop"></div>
+                </div>
+                <div id="slidebar">
+                </div>
+                <div id="rightbar">
+                    §EDITORCONTENT§
+                </div>
+            </div>
+        </div>
+    </div>
+    <datalist id="taglist">
+        §TAGLIST§
+    </datalist>
+    <script type="text/javascript">
+        if (ID('editor')){
+            if(ID('editor').innerHTML.length > 10){
+                UpdateSelectOtions();
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,294 @@
+@font-face {
+  font-family: FiraCode;
+  src: url('../font/FiraCode-VariableFont_wght.ttf');
+}
+:root {
+ --icon-size: 32px;
+ --toolbar-height: 2.8rem;
+}
+html, body {
+  margin: 0px;
+  padding: 0px;
+  top:0px;
+  width: 100vw;
+  height: 100vh;
+  font-family: "FiraCode" !important;
+}
+.blink {
+  animation: blinker 1s linear infinite;
+  opacity:1;
+}
+
+@keyframes blinker {
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.blinkbhi, .blinkblo {
+  animation: blinkerb 1s linear infinite;
+  border-color: cyan;
+  border-style: solid;
+  border-width: 4px !important;
+}
+
+@keyframes blinkerb {
+  40% {
+    border-color: cyan;
+  }
+  50% {
+    border-color: tomato;
+  }
+  100% {
+    border-color: tomato;
+  }
+}
+dialog {
+ padding:1.5rem;
+ line-height:1.5rem;
+ font-size:1.2rem;
+ border: none;
+ border-radius: 0.5rem;
+ box-shadow: 5px 5px 5px dimgray;
+ min-width: 25rem;
+}
+
+dialog button, dialog input{
+ padding:0.5rem;
+ font-size:1rem;
+ border: solid 1px dimgray;
+ border-radius: 0.2rem;
+ box-shadow: 5px 5px 5px dimgray;
+ margin:0.4rem;
+}
+dialog button{
+  width: 40%;
+}
+dialog input{
+  width: calc(80% + 1.6rem);
+}
+
+#plot button{
+  padding:initial;
+  font-size:initial;
+  border: initial;
+  border-radius: initial;
+  box-shadow: initial;
+  margin:initial;
+  width: 3rem;
+}
+
+#editor{
+  width: 1920px;
+  height: 1080px;
+  display: none;
+  overflow: hidden;
+}
+button:active{
+  box-shadow: none !important;
+}
+*{
+  cursor: default;
+}
+button, img[data-obj-type="switch"], input[data-writeable="true"]{
+  cursor: pointer;
+}
+
+.dropDownMenu {
+ position:fixed;
+ top:calc((var(--toolbar-height) - var(--icon-size))/2 );
+ right:calc((var(--toolbar-height) - var(--icon-size))/2 );
+ width:var(--icon-size);
+ height:var(--icon-size);
+ border-radius:calc(var(--icon-size)/20);
+ background-color:rgba(255,255,255,0.7);
+ color: royalblue;
+ padding:0;
+ margin:0;
+ line-height:calc(var(--icon-size) * 1);
+ font-size:calc(var(--icon-size) * 0.8);
+ text-align:center;
+ overflow:hidden;
+ transition: width 0.2s, background 0.5s;
+ z-index: 1001;
+}
+
+.icon{
+  height: 1.5rem;
+  vertical-align: text-bottom;
+}
+
+.dropDownMenu ul{
+   list-style-type: square;
+}
+ 
+.dropDownMenu::before {
+ font-family: FiraCode;
+ content: '☰';
+}
+
+.dropDownMenu:hover {
+ width: 20rem;
+ min-height: 50%;
+ height: fit-content;/*)*/
+ z-index: 1001;
+ text-align: left;
+ padding: 1rem;
+ transition: width 0.2s, background 0.5s;
+ line-height:1rem;
+ font-size: 1rem;
+ background-color:rgba(0,20,200,0.7);
+ box-shadow: -5px -5px 10px black;
+}
+
+.dropDownMenu:hover::before {
+ content:'';
+}
+.menu{
+  line-height: 1.5rem;
+  color: white;
+  padding-left: 1rem;
+}
+.menu a{
+  text-decoration: none;
+  color: white;
+}
+.dropDownMenu input{
+  cursor: pointer;
+}
+.dropDownMenu input:hover, .hover:hover{
+  background-color: rgba(255,255,255,0.1);
+}
+.menu li:hover {
+  background-color: rgba(255,255,255,0.1);
+  cursor: pointer;
+}
+hr{
+  color: white;
+}
+.wait1{
+  cursor: wait !important;
+  filter: grayscale(1) blur(2px);
+}
+.wait2{
+  cursor: wait !important;
+  filter: grayscale(0.8) blur(1px);
+}
+
+@keyframes forog {
+	from { rotate:0deg; }
+	to { rotate: 360deg;}
+}
+.wait {
+  animation: forog 1s linear infinite;
+  width: 14rem;
+  height: 14rem;
+  box-sizing: border-box;
+  border-top: 2rem solid dodgerblue;
+  border-right: 2rem solid rgba(0,0,0,0.2);
+  border-bottom: 2rem solid rgba(0,0,0,0.2);
+  border-left: 2rem solid rgba(0,0,0,0.2);
+  border-radius: 100%;
+  position: absolute;
+  top: calc(50% - 7rem);
+  left: calc(50% - 7rem);
+  z-index: 2000;
+}
+
+@keyframes atlatszo {
+	0% { 
+	  background-color: rgba(255,255,255,1);
+	  opacity: 1;
+  }
+	50% {
+	  background-color: rgba(255,255,255,0);
+	  opacity: 1;
+	}
+	100% {
+	  background-color: rgba(255,255,255,0);
+	  opacity: 0;
+	}
+}
+.whitehide{
+  animation: atlatszo 1s forwards;
+  background-color: rgba(255,255,255,1);
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1999;
+  background-image: url('../img/wui.png');
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+
+div[data-obj-type="alarmwindow"]{
+  padding: 0;
+}
+
+div[data-obj-type="alarmwindow"] table, table.alarmlog{
+  border-collapse: separate;
+  border: none;
+  text-align: left;
+  padding: 0px;
+  border-spacing: 0;
+}
+
+div[data-obj-type="alarmwindow"] th, div[data-obj-type="alarmwindow"] td, table.alarmlog th, table.alarmlog td{
+  border: solid 1px #888;
+  padding: 2px;
+}
+
+div[data-obj-type="alarmwindow"] table thead {
+  position: sticky;
+  top: 0px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+div[data-obj-type="alarmwindow"] table th:nth-child(2), div[data-obj-type="alarmwindow"] table td:nth-child(2){
+  min-width: 100px;
+  width: 1%;
+  text-wrap: nowrap;
+}
+
+div[data-obj-type="alarmwindow"] table td:nth-child(1){
+  font-weight: bold;
+}
+
+@keyframes pulse {
+  0% {opacity: 0;}
+  5% {opacity: 1;}
+  80% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+.toast{
+  position: fixed;
+  animation: pulse 5s forwards;
+  right: 3rem;
+  bottom: 3rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: lightblue;
+}
+
+.ok.toast{
+  background-color: rgba(114, 221, 114, 0.9);
+}
+
+.error.toast{
+  background-color: rgb(250, 201, 201, 0.9);
+}

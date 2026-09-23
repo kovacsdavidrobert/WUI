@@ -1,0 +1,158 @@
+<div id="maindiv">
+    §RESPONSE§
+    <div class="field">
+        <p class="title">
+            WUI oldalak szerkesztése:
+        </p>
+        <table class="collapse stricttable">
+            <tr>
+                <th>#
+                </th>
+                <th>
+                    Oldal neve
+                </th>
+                <th>Komment</th>
+                <th>
+                    Műveletek
+                </th>
+            </tr>
+            §SCREENTABLE§
+        </table>
+        <p class="right minm">
+            <button class="normalinput" onclick="ID('addpagedialog').showModal();">Oldal hozzáadása</button>
+        </p>
+        <div class="field info">
+            <p>
+                Kezdje az ablak nevét kötőjellel (-) ha azt szeretné, hogy a felhasználói listában ne jelenjen meg. A felhasználó által
+                megtekinthető oldalak a jobb felső <q>hamburgermenüben</q> jelennek meg a futtatókörnyezetben. A menü ikon a
+                szerkesztőben eltávolítható az adott oldalról (<i>Oldaltulajdonságok...</i>).
+            </p>
+        </div>
+    </div>
+</div>
+
+<dialog id="pageman">
+    <p class="title">Oldal átnevezése</p>
+    <p>Oldalnév: "<i><span id="pagelabel"></span></i>"</p>
+    <form method="post" id="pagemanform">
+        <input type="hidden" value="modifyPage" name="todo" />
+        <input type="hidden" id="pagename" name="pagename" />
+        <table class="collapse stricttable center excel">
+            <tr>
+                <th>Oldal neve</th>
+                <th>Komment</th>
+            </tr>
+            <tr>
+                <td>
+                    <input style="min-width: 12rem;" type="text" id="newpagename" name="newpagename"
+                        pattern="§PAGEREGEX§" placeholder="Oldal neve"
+                        onkeydown="this.style.backgroundColor ='';" />
+                </td>
+                <td>
+                    <input style="min-width: 20rem;" type="text" pattern="§COMMENTREGEX§" id="newcomment"
+                        name="newcomment" placeholder="Komment" onkeydown="this.style.backgroundColor ='';" />
+                </td>
+
+            </tr>
+        </table>
+    </form>
+    <button class="warning" onclick="submitRename()">Mentés</button>
+    <button onclick="this.parentNode.close()">Mégsem</button>
+</dialog>
+
+<dialog id="addpagedialog">
+    <p class="title">Oldal hozzáadása</p>
+    <form method="post" id="addpageform">
+        <input type="hidden" value="addPage" name="todo" />
+        <table class="collapse stricttable center excel">
+            <tr>
+                <th>Oldal neve</th>
+                <th>Komment</th>
+            </tr>
+            <tr>
+                <td>
+                    <input style="min-width: 12rem;" type="text" id="addpagename" name="pagename"
+                        pattern="§PAGEREGEX§" placeholder="Oldal neve"
+                        onkeydown="this.style.backgroundColor ='';" />
+                </td>
+                <td>
+                    <input style="min-width: 20rem;" type="text" pattern="§COMMENTREGEX§" id="addcomment"
+                        name="comment" placeholder="Komment" onkeydown="this.style.backgroundColor ='';" />
+                </td>
+
+            </tr>
+        </table>
+    </form>
+    <button class="warning" onclick="submitAddPage()">Mentés</button>
+    <button onclick="this.parentNode.close()">Mégsem</button>
+</dialog>
+
+<form method="post" id="delpageform">
+    <input type="hidden" value="delPage" name="todo" />
+    <input type="hidden" id="delpage" name="pagename" />
+</form>
+
+<form method="post" id="copypageform">
+    <input type="hidden" value="copyPage" name="todo" />
+    <input type="hidden" id="copypage" name="pagename" />
+</form>
+
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+
+    function toolSelected(sel, g) {
+        var encoded = encodeURIComponent(g);
+        if (sel.value == 'edit') {
+            window.open('?p=editor&page=' + encoded, 'e_' + g).focus();
+        }
+        else if (sel.value == 'view') {
+            window.open('?p=view&page=' + encoded, 'v_' + g).focus();
+        }
+        else if (sel.value == 'del') {
+            Confirm("Biztos törli az oldalt? (" + g + ")", "Igen", "Mégsem", () => {
+                ID('delpage').value = g;
+                ID('delpageform').submit();
+            });
+        }
+        else if (sel.value == 'rename') {
+            ID('pagelabel').innerHTML = g;
+            ID('pagename').value = g;
+            ID('newpagename').value = g;
+            ID('newcomment').value = sel.dataset.comment;
+            ID('pageman').showModal();
+        }
+        else if (sel.value == 'copy'){
+            ID('copypage').value = g;
+            ID('copypageform').submit();
+        }
+        sel.value = "";
+    }
+    function submitRename() {
+        if (!ID('newpagename').checkValidity() || ID('newpagename').value.length < 1) {
+            ID('newpagename').placeholder = "Max 32 betű, min 1.";
+            ID('newpagename').value = "";
+        }
+        else if (!ID('newcomment').checkValidity()) {
+            ID('newcomment').value = "";
+            ID('newcomment').placeholder = "Ne használjon aposztrófot!";
+        }
+        else {
+            ID('pagemanform').submit();
+        }
+    }
+
+    function submitAddPage() {
+        if (!ID('addpagename').checkValidity() || ID('addpagename').value.length < 1) {
+            ID('addpagename').placeholder = "Max 32 betű, min 1.";
+            ID('addpagename').value = "";
+        }
+        else if (!ID('addcomment').checkValidity()) {
+            ID('addcomment').value = "";
+            ID('addcomment').placeholder = "Ne használjon aposztrófot!";
+        }
+        else {
+            ID('addpageform').submit();
+        }
+    }
+
+</script>
