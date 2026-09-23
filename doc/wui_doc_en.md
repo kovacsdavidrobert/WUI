@@ -5,7 +5,6 @@ WUI Program Documentation
 
 |Author:            |[Kovács Dávid Róbert](https://kdr.hu/cv) |
 |:----------------- |----------------------------------------:|
-|Educational ID:    |                              72656388053|
 
 #### [Project directory](https://server.kdr.hu/cloud/browse.php?dir=Nyilv%C3%A1nos/oowui/)
 
