@@ -11,5 +11,6 @@ The WUI (**W**eb-based **U**ser **I**nterface) is a SCADA system used for the vi
 - managing user groups and assigning permissions. See the LICENSE file for details.
 
 ![Editor](doc/wuiobjects.png)
+![View (runtime)](doc/wuiPC.png)
 
 See the [doc/wui_doc_en.md](doc/wui_doc_en.md) for the documentation.
