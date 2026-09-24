@@ -12,5 +12,8 @@ The WUI (**W**eb-based **U**ser **I**nterface) is a SCADA system used for the vi
 
 ![Editor](doc/wuiobjects.png)
 ![View (runtime)](doc/wuiPC.png)
+[Video of an older version](https://kdr.hu/video/WUI%20SCADA%20rendszer%20bemutat%C3%B3.mp4)
+[New trend function video](https://kdr.hu/video/WUI%20Trend.mp4)
+
 
 See the [doc/wui_doc_en.md](doc/wui_doc_en.md) for the documentation.
